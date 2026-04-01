@@ -1,11 +1,11 @@
-name: Build index
+name: Build index and markdown
 
 on:
   push:
     branches: [main]
     paths:
-      - 'experts/**'
-      - 'skills/**'
+      - 'experts/**/*.json'
+      - 'skills/**/*.json'
 
 jobs:
   build:
@@ -48,10 +48,75 @@ jobs:
           console.log('Built index with', skills.length, 'skills');
           "
 
-      - name: Commit updated index
+      - name: Regenerate expert markdown files
+        run: |
+          node -e "
+          const fs = require('fs');
+          const path = require('path');
+
+          const expertsDir = path.join(process.cwd(), 'experts');
+          const experts = fs.readdirSync(expertsDir)
+            .filter(f => f.endsWith('.json'))
+            .map(f => JSON.parse(fs.readFileSync(path.join(expertsDir, f), 'utf8')));
+
+          function t(field) { return field.en; }
+
+          function generateMarkdown(expert) {
+            const lines = [];
+            const pageUrl = 'https://clawhub.md/expert/' + expert.slug;
+            const mdUrl = pageUrl + '.md';
+
+            lines.push('# ' + t(expert.name));
+            lines.push('');
+            lines.push('> **Agentic setup file** — share this URL with your agent and it will set everything up for you:');
+            lines.push('> \`' + mdUrl + '\`');
+            lines.push('');
+            lines.push('**Goal:** ' + t(expert.goal));
+            lines.push('');
+            lines.push('**What you\'ll have:** ' + t(expert.outcome));
+            lines.push('');
+            lines.push('---');
+            lines.push('');
+            lines.push('## Step 1: Install');
+            lines.push('');
+            const installCmd = expert.installAll
+              ?? expert.skillsWithReason.map(s => 'clawhub install ' + s.slug).join('\n');
+            lines.push('\`\`\`bash');
+            lines.push(installCmd);
+            lines.push('\`\`\`');
+            lines.push('');
+            lines.push('## Step 2: Try it');
+            lines.push('');
+            lines.push('After setup, say these to your agent:');
+            lines.push('');
+            for (const entry of expert.skillsWithReason) {
+              const exs = entry.examples && entry.examples.en;
+              if (exs && exs.length > 0) {
+                lines.push('**' + entry.slug + '**');
+                lines.push('');
+                for (const ex of exs.slice(0, 3)) {
+                  lines.push('- \"' + ex + '\"');
+                }
+                lines.push('');
+              }
+            }
+            lines.push('---');
+            lines.push('');
+            lines.push('*' + t(expert.name) + ' · [clawhub.md/expert/' + expert.slug + '](' + pageUrl + ')*');
+            return lines.join('\n');
+          }
+
+          for (const expert of experts) {
+            const md = generateMarkdown(expert);
+            fs.writeFileSync(path.join(expertsDir, expert.slug + '.md'), md);
+          }
+          console.log('Regenerated', experts.length, 'markdown files');
+          "
+
+      - name: Commit updated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index/
-          git diff --staged --quiet || git commit -m "chore: rebuild index"
+          git add index/ experts/*.md
+          git diff --staged --quiet || git commit -m "chore: rebuild index and markdown"
           git push
