@@ -1,0 +1,57 @@
+name: Build index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'experts/**'
+      - 'skills/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build experts index
+        run: |
+          node -e "
+          const fs = require('fs');
+          const path = require('path');
+
+          const expertsDir = path.join(process.cwd(), 'experts');
+          const experts = fs.readdirSync(expertsDir)
+            .filter(f => f.endsWith('.json'))
+            .map(f => JSON.parse(fs.readFileSync(path.join(expertsDir, f), 'utf8')));
+
+          fs.mkdirSync('index', { recursive: true });
+          fs.writeFileSync('index/experts.json', JSON.stringify(experts, null, 2));
+          console.log('Built index with', experts.length, 'experts');
+          "
+
+      - name: Build skills index
+        run: |
+          node -e "
+          const fs = require('fs');
+          const path = require('path');
+
+          const skillsDir = path.join(process.cwd(), 'skills');
+          if (!fs.existsSync(skillsDir)) { process.exit(0); }
+
+          const skills = fs.readdirSync(skillsDir)
+            .filter(f => f.endsWith('.json'))
+            .map(f => JSON.parse(fs.readFileSync(path.join(skillsDir, f), 'utf8')));
+
+          fs.writeFileSync('index/skills.json', JSON.stringify(skills, null, 2));
+          console.log('Built index with', skills.length, 'skills');
+          "
+
+      - name: Commit updated index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index/
+          git diff --staged --quiet || git commit -m "chore: rebuild index"
+          git push
