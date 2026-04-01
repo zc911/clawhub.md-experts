@@ -1,0 +1,69 @@
+[
+  {
+    "slug": "dev-expert",
+    "name": {
+      "en": "Ship Expert",
+      "zh": "开发者助理"
+    },
+    "description": {
+      "en": "review PRs, track issues, and delegate coding tasks — without leaving the terminal",
+      "zh": "不离开终端，完成 PR 审查、Issue 追踪和代码任务委派"
+    },
+    "goal": {
+      "en": "Code, review & ship faster",
+      "zh": "编码、审查、更快交付"
+    },
+    "outcome": {
+      "en": "Manage your GitHub workflow and delegate coding tasks to AI agents — all from your agent, with no context switching.",
+      "zh": "通过 Agent 管理 GitHub 工作流并把编码任务委派给 AI——全程无需切换上下文。"
+    },
+    "division": "Engineering",
+    "skillsWithReason": [
+      {
+        "slug": "openclaw/github",
+        "reason": {
+          "en": "Review open PRs, triage issues, check CI status, and create new issues — all via the gh CLI without opening a browser.",
+          "zh": "通过 gh CLI 审查 PR、处理 Issue、检查 CI 状态、创建新 Issue——全程无需打开浏览器。"
+        },
+        "order": 1,
+        "examples": {
+          "en": [
+            "Review my open PRs for anything blocking",
+            "Create an issue: login page crashes on Safari",
+            "What's the CI status on my current branch?",
+            "List all open issues assigned to me"
+          ],
+          "zh": [
+            "检查我的开放 PR 有没有 blocking 问题",
+            "创建一个 issue：登录页面在 Safari 崩溃",
+            "当前分支的 CI 状态怎么样？",
+            "列出所有分配给我的未关闭 Issue"
+          ]
+        }
+      },
+      {
+        "slug": "openclaw/coding-agent",
+        "reason": {
+          "en": "Delegate a refactor, background task, or code review to Claude Code or Codex while you stay focused on the bigger picture.",
+          "zh": "把重构、后台任务或代码审查委托给 Claude Code 或 Codex，自己专注于更重要的事。"
+        },
+        "order": 2,
+        "examples": {
+          "en": [
+            "Delegate this refactor to a coding agent",
+            "Have Codex review this function for edge cases",
+            "Run this migration script in a background agent"
+          ],
+          "zh": [
+            "把这个重构任务交给 coding agent 处理",
+            "让 Codex 检查这个函数的边界情况",
+            "在后台 agent 中运行这个迁移脚本"
+          ]
+        }
+      }
+    ],
+    "installAll": "clawhub install openclaw/github openclaw/coding-agent",
+    "curator": "clawhub",
+    "created": "2026-03-27"
+  }
+]
