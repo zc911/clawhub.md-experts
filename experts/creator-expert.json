@@ -1,0 +1,85 @@
+{
+  "slug": "creator-expert",
+  "name": {
+    "en": "Content Machine",
+    "zh": "内容创作助理"
+  },
+  "division": "Content",
+  "description": {
+    "en": "research, draft, and publish to X — all from the terminal",
+    "zh": "从终端完成素材研究、内容起草和发布"
+  },
+  "goal": {
+    "en": "Write, publish & grow an audience",
+    "zh": "创作、发布、持续积累受众"
+  },
+  "outcome": {
+    "en": "Summarize source material, draft in Notion, publish to X, and track engagement — without switching between five different apps.",
+    "zh": "摘要素材、在 Notion 起稿、发布到 X 并追踪互动数据——无需在五款应用之间反复切换。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/summarize",
+      "reason": {
+        "en": "Quickly digest articles, papers, and videos to extract the ideas worth writing about.",
+        "zh": "快速消化文章、论文和视频，提炼出值得写作的核心观点。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Summarize this article into key points I can write about",
+          "TL;DR this research paper in plain English",
+          "What are the most interesting ideas in this YouTube talk?"
+        ],
+        "zh": [
+          "把这篇文章摘要成我可以写作的要点",
+          "用通俗语言 TL;DR 这篇研究论文",
+          "这个 YouTube 演讲中最有趣的观点是什么？"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/notion",
+      "reason": {
+        "en": "Draft and organize your content in Notion — keep a writing queue, outline posts, and store your ideas in one place.",
+        "zh": "在 Notion 起草和整理内容——维护写作队列、文章大纲，把所有想法存在一处。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "Create a Notion draft for a post about AI agents",
+          "Add this idea to my content queue in Notion",
+          "What's in my writing backlog?"
+        ],
+        "zh": [
+          "在 Notion 中为一篇关于 AI Agent 的文章创建草稿",
+          "把这个想法加入我的 Notion 内容队列",
+          "我的写作待办列表里有什么？"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/xurl",
+      "reason": {
+        "en": "Publish threads, check mentions, and monitor how your posts are doing — without opening the app.",
+        "zh": "发布推文串、查看提及、监控帖子表现——无需打开应用。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Post this thread to X",
+          "Check my mentions and replies from today",
+          "What's my most-engaged post this week?"
+        ],
+        "zh": [
+          "把这个推文串发到 X",
+          "查看我今天的提及和回复",
+          "本周互动量最高的帖子是哪条？"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/summarize openclaw/notion openclaw/xurl",
+  "curator": "clawhub",
+  "created": "2026-03-27"
+}

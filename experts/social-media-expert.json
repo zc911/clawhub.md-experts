@@ -1,0 +1,85 @@
+{
+  "slug": "social-media-expert",
+  "name": {
+    "en": "Growth Hacker",
+    "zh": "社媒运营助理"
+  },
+  "division": "Content",
+  "description": {
+    "en": "post consistently, monitor mentions, and engage your audience — without the time sink",
+    "zh": "保持稳定发布、监控提及、互动受众，不再陷入时间黑洞"
+  },
+  "goal": {
+    "en": "Grow and engage your social presence",
+    "zh": "社媒增长与互动提效"
+  },
+  "outcome": {
+    "en": "Summarize industry news into post ideas, publish to X with proper formatting, monitor mentions and trending topics, and coordinate team announcements via Slack — all without context switching.",
+    "zh": "把行业资讯提炼成发帖素材，按格式发布到 X，监控提及和热点话题，通过 Slack 协调团队公告——无需切换上下文。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/xurl",
+      "reason": {
+        "en": "Post, search, and monitor X from your agent — check mentions, find trending topics, and publish without opening the app.",
+        "zh": "从 Agent 发帖、搜索和监控 X——检查提及、发现热点话题、发布内容无需打开 App。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Post: just shipped v2.0 — here's what changed",
+          "Check my X mentions from the past 24 hours",
+          "Search X for \"Claude Code\" discussions today"
+        ],
+        "zh": [
+          "发推：刚发布了 v2.0——这是更新内容",
+          "检查过去 24 小时的 X 提及",
+          "搜索今天 X 上关于「Claude Code」的讨论"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/summarize",
+      "reason": {
+        "en": "Turn articles, threads, and YouTube talks into tight post-ready summaries — so you always have something worth sharing.",
+        "zh": "把文章、帖子和 YouTube 演讲提炼成简洁的发帖素材——让你永远有值得分享的内容。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "Summarize this article into a tweet thread idea",
+          "Give me 3 post angles from this research paper",
+          "TL;DR this product launch for a social post"
+        ],
+        "zh": [
+          "把这篇文章概括成一个推文串思路",
+          "从这篇研究论文给我提炼 3 个发帖角度",
+          "给这次产品发布写一个适合社媒的 TL;DR"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/slack",
+      "reason": {
+        "en": "Coordinate launches, get copy approvals, and sync the team on what's going live — Slack keeps everyone aligned before you post.",
+        "zh": "协调发布、获得文案审批、同步团队发布内容——Slack 确保发帖前人人都对齐。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Post the launch announcement draft to #marketing for review",
+          "What did the team decide about the campaign in #marketing?",
+          "Remind the team in #social to engage with today's post"
+        ],
+        "zh": [
+          "把发布公告草稿发到 #marketing 审阅",
+          "团队在 #marketing 频道怎么决定这次活动的？",
+          "提醒 #social 频道的团队互动今天的帖子"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/xurl openclaw/summarize openclaw/slack",
+  "curator": "clawhub",
+  "created": "2026-03-28"
+}

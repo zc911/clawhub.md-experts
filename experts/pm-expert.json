@@ -1,0 +1,105 @@
+{
+  "slug": "pm-expert",
+  "name": {
+    "en": "Product Mind",
+    "zh": "产品经理助理"
+  },
+  "division": "Product",
+  "description": {
+    "en": "write specs, track decisions, run stakeholder comms — all from your agent",
+    "zh": "PRD 撰写、决策追踪、利益相关方沟通，全部交给 Agent"
+  },
+  "goal": {
+    "en": "Stay on top of product and stakeholder work",
+    "zh": "产品管理与干系人沟通提效"
+  },
+  "outcome": {
+    "en": "Draft PRDs and specs in Notion, summarize meeting outputs, keep your inbox under control, and coordinate with engineering and design via Slack — without context switching.",
+    "zh": "在 Notion 起草 PRD 和规格文档，汇总会议产出，控制邮件收件箱，通过 Slack 与研发和设计协作——无需切换上下文。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/gog",
+      "reason": {
+        "en": "Manage your Gmail inbox, schedule stakeholder syncs on Google Calendar, and pull research from Drive — the core communication layer for most PMs.",
+        "zh": "管理 Gmail 收件箱、在 Google Calendar 安排干系人同步、从 Drive 拉取研究资料——大多数 PM 的核心沟通层。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Summarize my unread emails and flag anything urgent",
+          "Schedule a 30-min sync with the eng team tomorrow",
+          "Find the Q2 roadmap doc in my Drive"
+        ],
+        "zh": [
+          "汇总我的未读邮件并标记紧急项",
+          "明天和研发团队安排一个 30 分钟同步",
+          "在我的 Drive 中找 Q2 路线图文档"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/notion",
+      "reason": {
+        "en": "Write PRDs, track feature decisions, and maintain your product wiki — Notion is where PM work lives.",
+        "zh": "撰写 PRD、追踪功能决策、维护产品 Wiki——Notion 是 PM 工作的核心阵地。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "Draft a PRD for this feature in Notion",
+          "Add these meeting decisions to the product wiki",
+          "Create a new spec page for the onboarding redesign"
+        ],
+        "zh": [
+          "在 Notion 起草这个功能的 PRD",
+          "把这些会议决策添加到产品 Wiki",
+          "为改版新手引导创建一个规格文档页"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/slack",
+      "reason": {
+        "en": "Post sprint updates, coordinate cross-functional work, and stay on top of engineering blockers — Slack is where the real-time product work happens.",
+        "zh": "发布迭代更新、协调跨职能工作、跟进研发 blocking——Slack 是实时产品协作的地方。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Post this week's sprint update to #product",
+          "What are the current engineering blockers in #eng?",
+          "DM the design lead about the deadline change"
+        ],
+        "zh": [
+          "把本周迭代更新发到 #product 频道",
+          "#eng 频道当前有哪些研发 blocking？",
+          "给设计负责人发 DM 说明截止日期变更"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/summarize",
+      "reason": {
+        "en": "Digest competitor articles, user research reports, and long design docs in seconds — so you always have context before any meeting.",
+        "zh": "几秒内消化竞品文章、用研报告和长篇设计文档——确保你在任何会议前都有足够的背景信息。"
+      },
+      "order": 4,
+      "examples": {
+        "en": [
+          "Summarize this user research report",
+          "TL;DR this competitor product announcement",
+          "Digest the key points of this 50-page spec"
+        ],
+        "zh": [
+          "汇总这份用研报告",
+          "总结这篇竞品发布公告的要点",
+          "摘要这份 50 页规格文档的核心内容"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/gog openclaw/notion openclaw/slack openclaw/summarize",
+  "curator": "clawhub",
+  "created": "2026-03-28"
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "research-expert",
+  "name": {
+    "en": "Deep Dive",
+    "zh": "研究助理"
+  },
+  "division": "Productivity",
+  "description": {
+    "en": "summarize anything and save insights straight to your knowledge base",
+    "zh": "摘要任何内容，直接保存洞察到你的知识库"
+  },
+  "goal": {
+    "en": "Research & take notes",
+    "zh": "高效研究与笔记整理"
+  },
+  "outcome": {
+    "en": "Summarize any URL, PDF, or video and save the insights to Obsidian or Notion — in seconds.",
+    "zh": "摘要任意 URL、PDF 或视频内容，并在几秒内保存到 Obsidian 或 Notion。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/summarize",
+      "reason": {
+        "en": "Paste a URL, file, or YouTube link — get a clean summary in seconds.",
+        "zh": "粘贴 URL、文件或 YouTube 链接——几秒内获得简洁摘要。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Summarize this URL: https://...",
+          "TL;DR this PDF",
+          "Summarize this YouTube video"
+        ],
+        "zh": [
+          "摘要这个 URL：https://...",
+          "TL;DR 这份 PDF",
+          "摘要这个 YouTube 视频"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/obsidian",
+      "reason": {
+        "en": "Save summaries and notes directly into your Obsidian vault with automatic linking.",
+        "zh": "将摘要和笔记直接保存到 Obsidian 仓库，并自动建立链接。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "Save this summary to my Obsidian vault",
+          "Create a note about today's meeting",
+          "Add this to my research folder in Obsidian"
+        ],
+        "zh": [
+          "把这个摘要保存到我的 Obsidian 仓库",
+          "创建一条关于今天会议的笔记",
+          "把这个添加到我 Obsidian 的研究文件夹"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/notion",
+      "reason": {
+        "en": "Alternatively, push research notes into Notion pages or databases.",
+        "zh": "或者，将研究笔记推送到 Notion 页面或数据库。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Add this to my Notion research database",
+          "Create a Notion page with these notes",
+          "Update my reading list in Notion"
+        ],
+        "zh": [
+          "把这个添加到我的 Notion 研究数据库",
+          "用这些笔记创建一个 Notion 页面",
+          "更新我在 Notion 中的阅读清单"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/summarize openclaw/obsidian openclaw/notion",
+  "curator": "clawhub",
+  "created": "2026-03-25"
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "student-expert",
+  "name": {
+    "en": "Study Buddy",
+    "zh": "学习与科研助理"
+  },
+  "division": "Productivity",
+  "description": {
+    "en": "read faster, take better notes, and retain what matters — built for students and researchers",
+    "zh": "读得更快、记得更好、留住重点——为学生和研究者量身打造"
+  },
+  "goal": {
+    "en": "Learn and research more efficiently",
+    "zh": "高效学习与科研"
+  },
+  "outcome": {
+    "en": "Summarize papers and lectures in seconds, extract text and citations from PDFs, save insights directly to your Obsidian vault, and keep your study calendar organized via Google — all in one workflow.",
+    "zh": "几秒内摘要论文和课程，从 PDF 提取文本和引用，把洞察直接存入 Obsidian vault，用 Google 整理学习日历——全部在一个工作流里完成。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/summarize",
+      "reason": {
+        "en": "Summarize academic papers, lecture videos, and reading list articles in seconds — compress hours of reading into minutes.",
+        "zh": "几秒内摘要学术论文、课程视频和阅读清单文章——把数小时阅读压缩成数分钟。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Summarize this research paper into key findings",
+          "TL;DR this YouTube lecture on machine learning",
+          "Give me the main argument of this article"
+        ],
+        "zh": [
+          "把这篇研究论文总结成核心发现",
+          "给这个机器学习 YouTube 课程写 TL;DR",
+          "给我这篇文章的核心论点"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/obsidian",
+      "reason": {
+        "en": "Build a connected note system in your Obsidian vault — save summaries, link concepts, and search across everything you've studied.",
+        "zh": "在 Obsidian vault 构建关联笔记系统——保存摘要、关联概念、搜索所有学过的内容。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "Save this paper summary to my Obsidian vault",
+          "Search my notes for \"transformer architecture\"",
+          "Create a note linking these two theories"
+        ],
+        "zh": [
+          "把这篇论文摘要存入 Obsidian vault",
+          "在我的笔记中搜索「transformer 架构」",
+          "创建一条笔记关联这两个理论"
+        ]
+      }
+    },
+    {
+      "slug": "anthropics/pdf",
+      "reason": {
+        "en": "Extract text, pull citations, and merge multiple papers into one searchable document — essential for literature reviews and thesis work.",
+        "zh": "提取文本、获取引用、把多篇论文合并成一份可搜索的文档——文献综述和论文写作的必备工具。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Extract all citations from this PDF paper",
+          "Pull the abstract and conclusions from these 5 papers",
+          "Merge my annotated PDFs into one document"
+        ],
+        "zh": [
+          "从这篇 PDF 论文中提取所有引用",
+          "从这 5 篇论文中提取摘要和结论",
+          "把我的注释 PDF 合并成一份文档"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/gog",
+      "reason": {
+        "en": "Keep your study schedule and assignment deadlines in Google Calendar, and save research notes to Drive — the backbone of your academic workflow.",
+        "zh": "在 Google Calendar 管理学习计划和作业截止日期，把研究笔记存入 Drive——学术工作流的骨架。"
+      },
+      "order": 4,
+      "examples": {
+        "en": [
+          "Add my exam dates to Google Calendar",
+          "Schedule study blocks for the next two weeks",
+          "Save this research summary to my Drive folder"
+        ],
+        "zh": [
+          "把考试日期添加到 Google Calendar",
+          "为接下来两周安排学习时间块",
+          "把这份研究摘要存入我的 Drive 文件夹"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/summarize openclaw/obsidian anthropics/pdf openclaw/gog",
+  "curator": "clawhub",
+  "created": "2026-03-28"
+}

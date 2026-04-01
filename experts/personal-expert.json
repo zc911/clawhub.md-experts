@@ -1,0 +1,105 @@
+{
+  "slug": "personal-expert",
+  "name": {
+    "en": "Life Admin",
+    "zh": "个人效率助理"
+  },
+  "division": "Productivity",
+  "description": {
+    "en": "organize your day, capture ideas, and stay ahead of your schedule — your AI personal assistant",
+    "zh": "整理你的一天、捕捉想法、掌控日程——你的 AI 个人助理"
+  },
+  "goal": {
+    "en": "Own your day and capture everything",
+    "zh": "掌控每一天，留住每个想法"
+  },
+  "outcome": {
+    "en": "Start every morning with a Gmail digest and calendar briefing, check the weather before you commit to plans, capture stray ideas directly into your Obsidian vault, and discover new skills to extend your Agent as your needs evolve.",
+    "zh": "每天早晨以 Gmail 摘要和日历简报开始，制定计划前先查天气，把零散想法直接存入 Obsidian vault，随着需求演进发现新 Skill 扩展你的 Agent。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/gog",
+      "reason": {
+        "en": "Your day starts with email and calendar — let your Agent triage the inbox, flag what needs a response, and surface what's on your schedule.",
+        "zh": "你的一天从邮件和日历开始——让 Agent 处理收件箱分拣，标记需要回复的，呈现你的日程安排。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Give me my morning briefing: emails + calendar",
+          "Flag any emails that need a reply today",
+          "What's on my calendar this week?"
+        ],
+        "zh": [
+          "给我早间简报：邮件 + 日历",
+          "标出今天需要回复的邮件",
+          "本周日历有哪些安排？"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/weather",
+      "reason": {
+        "en": "Check the forecast before you plan outdoor activities, commute decisions, or travel — no app-switching needed.",
+        "zh": "在安排户外活动、通勤决策或出行前查天气预报——无需切换应用。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "What's the weather this weekend?",
+          "Will it rain during my commute tomorrow?",
+          "7-day forecast for my city"
+        ],
+        "zh": [
+          "这个周末天气怎么样？",
+          "明天通勤时会下雨吗？",
+          "我所在城市的 7 天天气预报"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/obsidian",
+      "reason": {
+        "en": "Capture every idea, bookmark, and stray thought directly into your Obsidian vault — before it slips away.",
+        "zh": "把每一个想法、书签和随机念头直接存入 Obsidian vault——在它消失之前。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Save this idea to my Obsidian vault",
+          "Search my notes for the book recommendation I saved last week",
+          "Create a note: things to do before the move"
+        ],
+        "zh": [
+          "把这个想法存入 Obsidian vault",
+          "搜索我上周保存的书单推荐",
+          "创建笔记：搬家前要做的事"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/clawhub",
+      "reason": {
+        "en": "Discover and install new skills as your needs grow — your Agent gets smarter every time you expand it.",
+        "zh": "随着需求增长发现和安装新 Skill——每次扩展都让你的 Agent 更智能。"
+      },
+      "order": 4,
+      "examples": {
+        "en": [
+          "Search clawhub for a skill that can read Slack",
+          "Install the gog skill for Google Workspace",
+          "What skills are trending on clawhub this week?"
+        ],
+        "zh": [
+          "在 clawhub 搜索能读取 Slack 的 Skill",
+          "安装 gog skill 连接 Google Workspace",
+          "本周 clawhub 上有哪些热门 Skill？"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/gog openclaw/weather openclaw/obsidian openclaw/clawhub",
+  "curator": "clawhub",
+  "created": "2026-03-28"
+}

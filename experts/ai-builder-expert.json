@@ -1,0 +1,103 @@
+{
+  "slug": "ai-builder-expert",
+  "name": {
+    "en": "Agent Builder",
+    "zh": "AI 应用开发者"
+  },
+  "division": "Engineering",
+  "description": {
+    "en": "build Claude-powered apps, MCP servers, and reusable skills — end to end",
+    "zh": "构建 Claude 应用、MCP Server 和可复用 Skill，全链路搞定"
+  },
+  "goal": {
+    "en": "Build AI apps and agent skills faster",
+    "zh": "快速构建 AI 应用与 Agent Skill"
+  },
+  "outcome": {
+    "en": "Scaffold Claude API apps, build MCP servers that give LLMs new capabilities, package workflows as reusable skills, and delegate coding grunt work to an agent.",
+    "zh": "快速搭建 Claude API 应用、构建 MCP Server 赋予 LLM 新能力、把工作流打包成可复用 Skill，并把重复编码任务委托给 Agent。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "anthropics/claude-api",
+      "reason": {
+        "en": "Build streaming chat apps, implement tool use, and integrate Claude into any product — with Anthropic SDK examples you can run immediately.",
+        "zh": "构建流式对话应用、实现 tool use、把 Claude 集成进任意产品——配有可立即运行的 Anthropic SDK 示例。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Build a streaming chat app with the Claude API",
+          "Add tool use to my existing Claude integration",
+          "Show me how to implement multi-turn conversations"
+        ],
+        "zh": [
+          "用 Claude API 构建一个流式对话应用",
+          "给我现有的 Claude 集成加上 tool use",
+          "演示如何实现多轮对话"
+        ]
+      }
+    },
+    {
+      "slug": "anthropics/mcp-builder",
+      "reason": {
+        "en": "Build MCP servers that let LLMs call your APIs, read databases, or trigger workflows — a first-class integration layer for AI agents.",
+        "zh": "构建 MCP Server，让 LLM 调用你的 API、读取数据库或触发工作流——AI Agent 的标准集成层。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "Build an MCP server for my REST API",
+          "Add a database read tool to my MCP server",
+          "Create a new MCP server from scratch"
+        ],
+        "zh": [
+          "为我的 REST API 构建 MCP Server",
+          "给 MCP Server 添加数据库读取工具",
+          "从零开始创建一个 MCP Server"
+        ]
+      }
+    },
+    {
+      "slug": "anthropics/skill-creator",
+      "reason": {
+        "en": "Turn any repeatable workflow into a shareable AgentSkill — with proper SKILL.md structure, tool declarations, and audit-ready output.",
+        "zh": "把任何可重复的工作流打包成可分享的 AgentSkill——包含规范的 SKILL.md 结构、工具声明和审计友好的输出。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Package this workflow as a reusable skill",
+          "Audit my SKILL.md for best practices",
+          "Create a new skill that wraps this API"
+        ],
+        "zh": [
+          "把这个工作流打包成可复用的 Skill",
+          "审查我的 SKILL.md 是否符合最佳实践",
+          "创建一个封装这个 API 的新 Skill"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/coding-agent",
+      "reason": {
+        "en": "Delegate boilerplate, test generation, and refactors to Claude Code or Codex — so you stay in flow on architecture and product.",
+        "zh": "把样板代码、测试生成和重构任务委托给 Claude Code 或 Codex——自己专注于架构和产品。"
+      },
+      "order": 4,
+      "examples": {
+        "en": [
+          "Delegate writing tests for this module to an agent",
+          "Have Claude Code scaffold the boilerplate for this feature"
+        ],
+        "zh": [
+          "让 Agent 为这个模块生成测试",
+          "让 Claude Code 生成这个功能的脚手架"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install anthropics/claude-api anthropics/mcp-builder anthropics/skill-creator openclaw/coding-agent",
+  "curator": "clawhub",
+  "created": "2026-03-28"
+}

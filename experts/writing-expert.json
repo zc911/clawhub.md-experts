@@ -1,0 +1,105 @@
+{
+  "slug": "writing-expert",
+  "name": {
+    "en": "Word Surgeon",
+    "zh": "写作与文档助理"
+  },
+  "division": "Content",
+  "description": {
+    "en": "draft blog posts, maintain docs, and build a personal knowledge base — all in flow",
+    "zh": "撰写博客、维护文档、构建个人知识库，保持心流状态"
+  },
+  "goal": {
+    "en": "Write, document, and capture knowledge faster",
+    "zh": "写作、文档与知识沉淀提速"
+  },
+  "outcome": {
+    "en": "Summarize sources into Obsidian notes, draft and publish to Notion, extract key insights from PDFs, and maintain a living knowledge base that grows with every article you read.",
+    "zh": "把资料汇总进 Obsidian 笔记，在 Notion 起草并发布内容，从 PDF 提取核心洞察，构建一个随每篇文章阅读不断生长的知识库。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/obsidian",
+      "reason": {
+        "en": "Your second brain — search, create, and link notes in your local Obsidian vault so ideas connect across everything you've read.",
+        "zh": "你的第二大脑——在本地 Obsidian vault 中搜索、创建和关联笔记，让想法跨越所有阅读材料相互连接。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Save this article summary to my Obsidian vault",
+          "Search my notes for ideas about \"product-led growth\"",
+          "Create a note connecting these two concepts"
+        ],
+        "zh": [
+          "把这篇文章摘要存入 Obsidian vault",
+          "在我的笔记中搜索关于「产品驱动增长」的想法",
+          "创建一条笔记连接这两个概念"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/notion",
+      "reason": {
+        "en": "Draft long-form posts, maintain a content calendar, and publish finalized pieces to your Notion workspace.",
+        "zh": "起草长篇文章、维护内容日历，把定稿发布到 Notion 工作区。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "Draft a blog post about this topic in Notion",
+          "Add this idea to my content calendar",
+          "Publish these notes as a Notion page"
+        ],
+        "zh": [
+          "在 Notion 起草一篇关于这个主题的博客",
+          "把这个想法加入内容日历",
+          "把这些笔记发布为 Notion 页面"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/summarize",
+      "reason": {
+        "en": "Turn any URL, PDF, or YouTube link into a concise summary — the fastest way to absorb sources and capture the key points worth keeping.",
+        "zh": "把任意 URL、PDF 或 YouTube 链接转为简洁摘要——吸收素材、提炼值得保留要点的最快方式。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Summarize this article and save to Obsidian",
+          "TL;DR this research paper",
+          "Summarize this YouTube talk into bullet points"
+        ],
+        "zh": [
+          "摘要这篇文章并存入 Obsidian",
+          "给这篇研究论文写一个 TL;DR",
+          "把这个 YouTube 演讲总结成要点"
+        ]
+      }
+    },
+    {
+      "slug": "anthropics/pdf",
+      "reason": {
+        "en": "Extract text from academic papers, merge reference documents, and turn scanned PDFs into searchable content — essential for serious research and writing.",
+        "zh": "从学术论文提取文本、合并参考文档、把扫描件变成可搜索内容——深度研究和写作的必备工具。"
+      },
+      "order": 4,
+      "examples": {
+        "en": [
+          "Extract the key findings from this paper PDF",
+          "Merge these three reference docs into one",
+          "Pull the methodology section from this report"
+        ],
+        "zh": [
+          "从这篇论文 PDF 中提取核心发现",
+          "把这三份参考文档合并成一份",
+          "从这份报告中提取方法论章节"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/obsidian openclaw/notion openclaw/summarize anthropics/pdf",
+  "curator": "clawhub",
+  "created": "2026-03-28"
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "open-source-expert",
+  "name": {
+    "en": "OSS Maintainer",
+    "zh": "开源维护者助理"
+  },
+  "division": "Engineering",
+  "description": {
+    "en": "triage issues, engage contributors, and announce releases — without the burnout",
+    "zh": "处理 Issue、激活贡献者、发布公告——不再精疲力竭"
+  },
+  "goal": {
+    "en": "Maintain your OSS project without burning out",
+    "zh": "可持续地维护开源项目"
+  },
+  "outcome": {
+    "en": "Triage GitHub issues and PRs from the terminal, post release announcements to X, keep your community synced via Slack, and summarize incoming issues and discussions so you always know what the community needs.",
+    "zh": "从终端处理 GitHub Issue 和 PR，在 X 发布版本公告，通过 Slack 保持社区同步，汇总收到的 Issue 和讨论，始终了解社区需求。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/github",
+      "reason": {
+        "en": "Triage issues, review community PRs, check CI on contributor branches, and create release issues — the core of OSS maintenance.",
+        "zh": "处理 Issue、review 社区 PR、检查贡献者分支的 CI、创建版本 Issue——开源维护的核心工作。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "List all open issues with more than 5 thumbs-up",
+          "Review this community PR for quality",
+          "Create a release checklist issue for v2.0"
+        ],
+        "zh": [
+          "列出所有超过 5 个大拇指的开放 Issue",
+          "检查这个社区 PR 的质量",
+          "为 v2.0 创建一个版本检查清单 Issue"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/xurl",
+      "reason": {
+        "en": "Announce releases, engage with users who mention your project, and share what the community is building — social visibility for OSS.",
+        "zh": "发布版本公告，回应提及你项目的用户，分享社区正在构建的内容——开源的社媒曝光度。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "Post the v2.0 release announcement thread",
+          "Check X for mentions of my project this week",
+          "Search for users asking questions about this library"
+        ],
+        "zh": [
+          "发布 v2.0 版本公告推文串",
+          "检查本周 X 上对我项目的提及",
+          "搜索在问这个库相关问题的用户"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/slack",
+      "reason": {
+        "en": "Keep your contributor community engaged in Slack — share roadmap updates, answer questions, and announce breaking changes before they hit.",
+        "zh": "在 Slack 保持贡献者社区的活跃——分享路线图更新，回答问题，提前公告重大变更。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Post the release notes to #announcements",
+          "What are contributors discussing in #contributors today?",
+          "Announce the breaking change to #general"
+        ],
+        "zh": [
+          "把版本说明发到 #announcements",
+          "今天 #contributors 频道贡献者在讨论什么？",
+          "向 #general 公告这次重大变更"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/summarize",
+      "reason": {
+        "en": "Summarize long issue threads, PRs with 50+ comments, and community discussions so you can respond with context — not noise.",
+        "zh": "汇总长 Issue 线程、50+ 评论的 PR 和社区讨论，让你带着背景做回应——而不是被噪音淹没。"
+      },
+      "order": 4,
+      "examples": {
+        "en": [
+          "Summarize this 80-comment issue thread",
+          "TL;DR this PR discussion and tell me the sticking point",
+          "What are the top 5 feature requests from issues this month?"
+        ],
+        "zh": [
+          "汇总这个 80 条评论的 Issue 线程",
+          "给这个 PR 讨论写 TL;DR 并告诉我分歧点",
+          "本月 Issue 中排名前 5 的功能请求是什么？"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/github openclaw/xurl openclaw/slack openclaw/summarize",
+  "curator": "clawhub",
+  "created": "2026-03-28"
+}

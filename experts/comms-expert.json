@@ -1,0 +1,85 @@
+{
+  "slug": "comms-expert",
+  "name": {
+    "en": "Inbox Zero",
+    "zh": "沟通助理"
+  },
+  "division": "Productivity",
+  "description": {
+    "en": "manage your inbox, calendar, and team channels without leaving the terminal",
+    "zh": "不离开终端，管理收件箱、日历和团队频道"
+  },
+  "goal": {
+    "en": "Manage email & comms",
+    "zh": "统一管理邮件与沟通"
+  },
+  "outcome": {
+    "en": "Control Gmail, Slack, and X from your agent — read, send, and organize without switching apps.",
+    "zh": "通过 Agent 操控 Gmail、Slack 和 X——阅读、发送、整理，无需切换应用。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/gog",
+      "reason": {
+        "en": "Read, send, and organize Gmail. Check your calendar, share Drive files, and update Sheets — all from your agent.",
+        "zh": "阅读、发送和整理 Gmail，查看日历、共享 Drive 文件、更新 Sheets——全部通过 Agent 完成。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Check my inbox for anything urgent",
+          "Schedule a meeting tomorrow at 2pm with Alice",
+          "Share this file with my team on Drive"
+        ],
+        "zh": [
+          "查看我的收件箱有没有紧急邮件",
+          "明天下午 2 点和 Alice 安排一个会议",
+          "在 Drive 上把这个文件分享给我的团队"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/slack",
+      "reason": {
+        "en": "Post to channels, read threads, and manage your Slack workspace directly from the terminal.",
+        "zh": "直接从终端向频道发帖、阅读话题串、管理 Slack 工作区。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "Post to #general: deployment is live",
+          "What's new in #engineering today?",
+          "Send a DM to Alice about the PR"
+        ],
+        "zh": [
+          "在 #general 发帖：部署已上线",
+          "#engineering 今天有什么新动态？",
+          "给 Alice 发一条关于 PR 的私信"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/xurl",
+      "reason": {
+        "en": "Monitor X (Twitter) mentions, post updates, and search trends via the authenticated API.",
+        "zh": "通过已认证的 API 监控 X（Twitter）提及、发布更新并搜索趋势。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Check my X mentions from today",
+          "Post a tweet: just shipped v2.0",
+          "Search X for \"openclaw\" trends"
+        ],
+        "zh": [
+          "查看我今天的 X 提及",
+          "发一条推文：刚发布了 v2.0",
+          "在 X 上搜索\"openclaw\"相关趋势"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/gog openclaw/slack openclaw/xurl",
+  "curator": "clawhub",
+  "created": "2026-03-25"
+}

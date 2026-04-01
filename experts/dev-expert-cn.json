@@ -1,0 +1,78 @@
+{
+  "slug": "dev-expert-cn",
+  "name": {
+    "en": "Dev Assistant (Chinese Teams)",
+    "zh": "开发者助理（中文团队）"
+  },
+  "division": "中文专区",
+  "description": {
+    "en": "GitHub workflow + Feishu notifications + AI coding agent — built for Chinese dev teams",
+    "zh": "GitHub 工作流 + 飞书通知 + AI coding agent，中文开发团队专属"
+  },
+  "goal": {
+    "en": "Boost dev team productivity",
+    "zh": "中文团队开发提效"
+  },
+  "outcome": {
+    "en": "Manage GitHub PRs and Issues with your Agent, sync progress to Feishu, and delegate repetitive coding tasks to AI — all without leaving the terminal.",
+    "zh": "用 Agent 管理 GitHub PR 和 Issue，同步进展到飞书，把重复性编码任务交给 AI——无需离开终端。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/github",
+      "reason": {
+        "en": "Review PRs, handle Issues, and check CI status via the gh CLI — no browser needed.",
+        "zh": "通过 gh CLI 查看 PR、处理 Issue、检查 CI 状态，不用打开浏览器。"
+      },
+      "examples": {
+        "en": [
+          "Check if any of my PRs need attention",
+          "Create an issue: login page crashes on Safari",
+          "What's the CI status on my current branch?"
+        ],
+        "zh": [
+          "检查我的 PR 有没有需要处理的 review",
+          "创建一个 issue：登录页面在 Safari 崩溃",
+          "当前分支的 CI 状态怎么样？"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/feishu",
+      "reason": {
+        "en": "Sync GitHub events and dev progress to Feishu groups so the team stays in the loop in real time.",
+        "zh": "把 GitHub 事件和开发进展同步到飞书群，让团队实时了解项目状态。"
+      },
+      "examples": {
+        "en": [
+          "Post the PR merge notification to the #engineering Feishu group",
+          "What Feishu messages are related to development today?"
+        ],
+        "zh": [
+          "把这个 PR 合并的消息发到飞书 #engineering 群",
+          "今天有哪些飞书消息和开发相关？"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/coding-agent",
+      "reason": {
+        "en": "Delegate refactors, code reviews, and migration scripts to a coding agent so you can focus on what matters.",
+        "zh": "把重构、代码审查、迁移脚本等任务委托给 coding agent，自己专注更重要的事。"
+      },
+      "examples": {
+        "en": [
+          "Hand this refactor off to a coding agent",
+          "Have Codex check this function for edge cases"
+        ],
+        "zh": [
+          "把这个重构任务交给 coding agent 处理",
+          "让 Codex 检查这个函数的边界情况"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/github openclaw/feishu openclaw/coding-agent",
+  "curator": "clawhub",
+  "created": "2026-03-27"
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "wecom-expert",
+  "name": {
+    "en": "WeCom Customer Service Assistant",
+    "zh": "企业微信客服助理"
+  },
+  "division": "中文专区",
+  "description": {
+    "en": "track customer messages, draft replies, and send reminders — never keep clients waiting",
+    "zh": "客户消息跟进、回复草稿、待办提醒，不让客户等太久"
+  },
+  "goal": {
+    "en": "WeCom customer follow-up",
+    "zh": "企业微信客户跟进"
+  },
+  "outcome": {
+    "en": "Auto-summarize pending customer messages, generate reply drafts, and mark follow-up status — so your response speed improves by an order of magnitude.",
+    "zh": "自动汇总待回复客户消息，生成回复草稿，标记跟进状态——让客户响应速度提升一个量级。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/wecom",
+      "reason": {
+        "en": "Read WeCom customer messages, generate reply drafts, and track follow-up status — so no customer slips through the cracks.",
+        "zh": "读取企业微信客户消息，生成回复草稿，追踪跟进状态，让你不遗漏任何一个客户。"
+      },
+      "examples": {
+        "en": [
+          "Summarize all unanswered customer messages from today",
+          "Draft a reply to this inquiry message",
+          "List the customers I need to follow up with this week",
+          "Mark this customer as \"followed up\""
+        ],
+        "zh": [
+          "汇总今天所有未回复的客户消息",
+          "帮我起草回复这条询价消息",
+          "列出本周需要跟进的客户清单",
+          "把这个客户标记为\"已跟进\""
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/wecom",
+  "curator": "clawhub",
+  "created": "2026-03-27"
+}

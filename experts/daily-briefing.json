@@ -1,0 +1,85 @@
+{
+  "slug": "daily-briefing",
+  "name": {
+    "en": "Morning Intel",
+    "zh": "每日简报"
+  },
+  "division": "Productivity",
+  "description": {
+    "en": "inbox highlights, calendar, and weather — before you open a single app",
+    "zh": "打开任何应用之前，先把收件箱重点、日历和天气一次搞定"
+  },
+  "goal": {
+    "en": "Start your day in 30 seconds",
+    "zh": "30 秒开启高效的一天"
+  },
+  "outcome": {
+    "en": "One command. Today's weather, inbox highlights, and what's on your calendar — so you know what matters before the day starts.",
+    "zh": "一条命令，搞定今日天气、收件箱重点和日程安排——让你在一天开始前就掌握全局。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/gog",
+      "reason": {
+        "en": "Pull urgent emails and check today's calendar — get the full picture of your day without opening Gmail.",
+        "zh": "拉取紧急邮件并查看今日日历——无需打开 Gmail 就能掌握全天计划。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "What's urgent in my inbox today?",
+          "What meetings do I have this afternoon?",
+          "Any emails from my team since yesterday?"
+        ],
+        "zh": [
+          "今天我的收件箱里有什么紧急邮件？",
+          "我今天下午有哪些会议？",
+          "昨天以来团队有没有发邮件给我？"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/weather",
+      "reason": {
+        "en": "Get the weather for your location so you can plan your day — commute, lunch, travel, whatever.",
+        "zh": "获取当地天气，提前规划通勤、午餐、出行等日常安排。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "What's the weather today in my city?",
+          "Will it rain this afternoon in London?",
+          "5-day forecast for this week"
+        ],
+        "zh": [
+          "我所在城市今天天气怎么样？",
+          "伦敦今天下午会下雨吗？",
+          "本周五天天气预报"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/summarize",
+      "reason": {
+        "en": "TL;DR a long email thread, article, or doc when you only have 2 minutes to get up to speed.",
+        "zh": "只有 2 分钟时，用 TL;DR 快速消化长邮件、文章或文档。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "TL;DR the last 5 emails in this thread",
+          "Summarize this article before my 9am",
+          "Give me the key points from this document"
+        ],
+        "zh": [
+          "TL;DR 这个邮件串最后 5 封邮件",
+          "在我 9 点会议前摘要这篇文章",
+          "提炼这份文档的核心要点"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/gog openclaw/weather openclaw/summarize",
+  "curator": "clawhub",
+  "created": "2026-03-27"
+}

@@ -1,0 +1,125 @@
+{
+  "slug": "founder-expert",
+  "name": {
+    "en": "Founder Mode",
+    "zh": "创业者助理"
+  },
+  "division": "Product",
+  "description": {
+    "en": "manage investors, team, and product all from one place — the founder's command center",
+    "zh": "投资人、团队、产品全部从一个地方管理——创业者的指挥中心"
+  },
+  "goal": {
+    "en": "Run your startup from your agent",
+    "zh": "用 Agent 驱动创业日常"
+  },
+  "outcome": {
+    "en": "Triage your inbox and investor updates via Gmail, review your engineers' PRs from the terminal, coordinate the team on Slack, keep your product roadmap in Notion, and stay on top of market signals — all from a single workflow.",
+    "zh": "通过 Gmail 处理收件箱和投资人更新，从终端 review 工程师的 PR，在 Slack 协调团队，在 Notion 维护产品路线图，持续关注市场信号——全部在一个工作流中完成。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/gog",
+      "reason": {
+        "en": "Investor updates, customer emails, and board scheduling all live in Gmail and Calendar — your Agent handles the triage so you focus on the signal.",
+        "zh": "投资人更新、客户邮件、董事会日程全都在 Gmail 和 Calendar 里——Agent 处理分拣，你专注核心信号。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Draft my monthly investor update email",
+          "Summarize my unread emails and flag anything from customers",
+          "Schedule a board call for next week"
+        ],
+        "zh": [
+          "起草本月的投资人更新邮件",
+          "汇总未读邮件并标记来自客户的",
+          "安排下周的董事会电话"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/github",
+      "reason": {
+        "en": "Stay close to the code without context switching — review PRs, check CI, and unblock engineers from the terminal.",
+        "zh": "不切换上下文地贴近代码——从终端 review PR、检查 CI、解除工程师 blocking。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "What PRs need my review today?",
+          "Is the CI passing on the release branch?",
+          "Create an issue: customer reported login failure on mobile"
+        ],
+        "zh": [
+          "今天有哪些 PR 需要我 review？",
+          "发布分支的 CI 通过了吗？",
+          "创建 issue：客户反映移动端登录失败"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/slack",
+      "reason": {
+        "en": "Team standups, launch announcements, and customer escalations all happen in Slack — your Agent keeps you in the loop without reading every message.",
+        "zh": "团队站会、发布公告、客户升级都在 Slack 发生——Agent 让你保持同步，而无需阅读每条消息。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "What's the latest in #engineering today?",
+          "Post the launch announcement to #general",
+          "Alert the team about the production incident"
+        ],
+        "zh": [
+          "今天 #engineering 频道有什么最新动态？",
+          "把发布公告发到 #general",
+          "通知团队生产事故"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/notion",
+      "reason": {
+        "en": "Your product roadmap, hiring tracker, and OKR docs all live in Notion — your Agent keeps them up to date so you're never working from stale info.",
+        "zh": "产品路线图、招聘追踪器和 OKR 文档都在 Notion 里——Agent 保持它们更新，让你不再依赖过时信息。"
+      },
+      "order": 4,
+      "examples": {
+        "en": [
+          "Update the Q2 roadmap with this new priority",
+          "Add this candidate to the hiring tracker",
+          "Draft the Q2 OKRs in Notion"
+        ],
+        "zh": [
+          "把这个新优先级更新到 Q2 路线图",
+          "把这个候选人添加到招聘追踪器",
+          "在 Notion 起草 Q2 OKRs"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/summarize",
+      "reason": {
+        "en": "Digest competitor launches, investor memos, and market reports in seconds — so you always have context, never preparation time.",
+        "zh": "几秒内消化竞品发布、投资人备忘录和市场报告——永远有背景，不再花时间准备。"
+      },
+      "order": 5,
+      "examples": {
+        "en": [
+          "Summarize this competitor's product launch post",
+          "TL;DR this VC memo on the AI market",
+          "Digest the key trends in this industry report"
+        ],
+        "zh": [
+          "总结这篇竞品发布文章",
+          "给这份 VC 备忘录写 TL;DR",
+          "提炼这份行业报告中的核心趋势"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/gog openclaw/github openclaw/slack openclaw/notion openclaw/summarize",
+  "curator": "clawhub",
+  "created": "2026-03-28"
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "indie-dev-expert",
+  "name": {
+    "en": "Solo Founder Dev",
+    "zh": "独立开发者助理"
+  },
+  "division": "Engineering",
+  "description": {
+    "en": "build in public, ship frequently, and grow an audience — the solo dev who does it all",
+    "zh": "公开构建、频繁发布、积累受众——一人搞定所有事的独立开发者"
+  },
+  "goal": {
+    "en": "Build, ship, and grow as a solo developer",
+    "zh": "独立开发：构建、发布、增长"
+  },
+  "outcome": {
+    "en": "Manage GitHub from the terminal, delegate boilerplate and tests to a coding agent, announce releases on X to build an audience, and package your best workflows into reusable skills — so each project makes you faster than the last.",
+    "zh": "从终端管理 GitHub，把样板代码和测试委托给 coding agent，在 X 上发布版本动态积累受众，把最好的工作流打包成可复用 Skill——让每个项目都比上一个更高效。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/github",
+      "reason": {
+        "en": "Manage PRs, Issues, and CI from the terminal — stay close to the code without context switching.",
+        "zh": "从终端管理 PR、Issue 和 CI——贴近代码，无需切换上下文。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "List my open PRs and flag anything blocking",
+          "What's the CI status on my current branch?",
+          "Create an issue for the bug I just found"
+        ],
+        "zh": [
+          "列出我的开放 PR，标出有 blocking 的",
+          "当前分支的 CI 状态怎么样？",
+          "为我刚发现的 bug 创建一个 issue"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/coding-agent",
+      "reason": {
+        "en": "Delegate test generation, boilerplate, and repetitive refactors to Claude Code or Codex — stay in flow on the parts only you can do.",
+        "zh": "把测试生成、样板代码和重复性重构委托给 Claude Code 或 Codex——专注于只有你能做的部分。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "Delegate writing tests for this module to Claude Code",
+          "Have Codex scaffold the API routes for this feature",
+          "Run this refactor in a background agent"
+        ],
+        "zh": [
+          "让 Claude Code 为这个模块生成测试",
+          "让 Codex 生成这个功能的 API 路由脚手架",
+          "在后台 agent 中执行这个重构"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/xurl",
+      "reason": {
+        "en": "Announce releases, share what you're building, and engage with users who reply — building in public is how indie devs grow.",
+        "zh": "发布版本公告、分享构建过程、回应用户——公开构建是独立开发者增长的方式。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Post the v1.0 launch announcement",
+          "Check my X mentions since yesterday",
+          "Search for people asking about this type of tool"
+        ],
+        "zh": [
+          "发布 v1.0 上线公告",
+          "检查昨天以来的 X 提及",
+          "搜索在问这类工具的人"
+        ]
+      }
+    },
+    {
+      "slug": "anthropics/skill-creator",
+      "reason": {
+        "en": "Package your best repeatable workflows into AgentSkills you can reuse across projects or share with the community.",
+        "zh": "把你最好的可重复工作流打包成 AgentSkill，跨项目复用或分享给社区。"
+      },
+      "order": 4,
+      "examples": {
+        "en": [
+          "Package this deploy workflow as a reusable skill",
+          "Create a skill that automates my release checklist",
+          "Audit my SKILL.md for best practices"
+        ],
+        "zh": [
+          "把这个部署工作流打包成可复用 Skill",
+          "创建一个自动执行我发布检查清单的 Skill",
+          "审查我的 SKILL.md 是否符合最佳实践"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/github openclaw/coding-agent openclaw/xurl anthropics/skill-creator",
+  "curator": "clawhub",
+  "created": "2026-03-28"
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "dingtalk-expert",
+  "name": {
+    "en": "DingTalk Meeting Assistant",
+    "zh": "钉钉会议助理"
+  },
+  "division": "中文专区",
+  "description": {
+    "en": "pre-meeting prep, post-meeting minutes, follow-up delivery — all via Agent",
+    "zh": "会前准备、会后纪要、跟进发送，全程交给 Agent"
+  },
+  "goal": {
+    "en": "Automate DingTalk meetings end-to-end",
+    "zh": "钉钉会议全程自动化"
+  },
+  "outcome": {
+    "en": "Pull meeting agenda and materials before the call, then auto-generate minutes and send them to all attendees.",
+    "zh": "会前拉取议程和相关资料，会后自动整理会议纪要并发送给参会者。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/dingtalk",
+      "reason": {
+        "en": "Read DingTalk calendar, group messages, and todos — let your Agent prep materials, draft minutes, and send follow-ups.",
+        "zh": "读取钉钉日历、群消息和待办，让 Agent 帮你准备会议资料、整理纪要、发送跟进。"
+      },
+      "examples": {
+        "en": [
+          "Prepare background materials for my 3pm meeting",
+          "Draft meeting minutes from what we just discussed",
+          "Send the minutes to all attendees via DingTalk",
+          "What pending todos do I have in DingTalk today?"
+        ],
+        "zh": [
+          "帮我准备下午 3 点会议的背景资料",
+          "把刚才的会议要点整理成纪要",
+          "把会议纪要通过钉钉发给所有参会人",
+          "今天钉钉有哪些未处理的待办？"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/dingtalk",
+  "curator": "clawhub",
+  "created": "2026-03-27"
+}

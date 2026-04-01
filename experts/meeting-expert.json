@@ -1,0 +1,85 @@
+{
+  "slug": "meeting-expert",
+  "name": {
+    "en": "Meeting Ninja",
+    "zh": "会议助理"
+  },
+  "division": "Productivity",
+  "description": {
+    "en": "walk in prepared and walk out with notes sent — automatically",
+    "zh": "带着准备进会，带着自动发出的纪要离场"
+  },
+  "goal": {
+    "en": "Prep & follow up on meetings",
+    "zh": "会前准备与会后跟进"
+  },
+  "outcome": {
+    "en": "Brief before every call, clean notes after. Your agent pulls the context, captures decisions, and sends the follow-ups — so you can focus on the conversation.",
+    "zh": "每次通话前自动准备摘要，通话后整理纪要。Agent 拉取上下文、记录决策、发送跟进邮件——让你专注于对话本身。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/gog",
+      "reason": {
+        "en": "Check your calendar for upcoming meetings, pull relevant emails for context, and send follow-up emails when the call is done.",
+        "zh": "查看即将到来的会议日历，拉取相关邮件作为上下文，会议结束后发送跟进邮件。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "What meetings do I have today?",
+          "Pull emails from Alice about the Q2 project",
+          "Send a follow-up to everyone on today's 3pm call"
+        ],
+        "zh": [
+          "我今天有哪些会议？",
+          "拉取 Alice 关于 Q2 项目的邮件",
+          "给今天下午 3 点会议的所有人发跟进邮件"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/summarize",
+      "reason": {
+        "en": "Summarize a doc, slide deck, or past meeting recording before the call so you're never walking in cold.",
+        "zh": "通话前摘要文档、幻灯片或过往会议录音，让你永远有备而来。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "Summarize this proposal PDF before my 2pm",
+          "TL;DR the last 3 emails in this thread",
+          "Summarize the recording from last week's kickoff"
+        ],
+        "zh": [
+          "在我下午 2 点会议前摘要这份提案 PDF",
+          "TL;DR 这个邮件串最后 3 封邮件",
+          "摘要上周启动会的录音"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/notion",
+      "reason": {
+        "en": "Store meeting notes, decisions, and action items in Notion so nothing gets lost after the call.",
+        "zh": "把会议记录、决策和行动项保存到 Notion，确保通话结束后没有任何遗漏。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Create a meeting note in Notion for today's standup",
+          "Add these action items to my Notion tasks",
+          "Log the decisions from this call to the project page"
+        ],
+        "zh": [
+          "为今天的站会在 Notion 创建会议记录",
+          "把这些行动项加入我的 Notion 任务",
+          "把这次通话的决策记录到项目页面"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/gog openclaw/summarize openclaw/notion",
+  "curator": "clawhub",
+  "created": "2026-03-26"
+}

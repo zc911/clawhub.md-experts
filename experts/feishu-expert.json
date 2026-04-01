@@ -1,0 +1,46 @@
+{
+  "slug": "feishu-expert",
+  "name": {
+    "en": "Feishu Assistant",
+    "zh": "飞书助理"
+  },
+  "division": "中文专区",
+  "description": {
+    "en": "manage Feishu messages, docs, and calendar — all in one place",
+    "zh": "飞书消息、文档、日历一站式管理，不错过任何重要信息"
+  },
+  "goal": {
+    "en": "Auto-organize Feishu messages & docs",
+    "zh": "飞书消息与文档自动整理"
+  },
+  "outcome": {
+    "en": "Let your Agent summarize unread Feishu messages, digest docs, and organize meeting notes — no manual app-switching required.",
+    "zh": "让你的 Agent 汇总飞书未读消息、摘要文档、整理会议记录——无需手动切换应用。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/feishu",
+      "reason": {
+        "en": "Read Feishu messages, docs, and calendar — let your Agent filter what matters and save you the manual searching.",
+        "zh": "读取飞书消息、文档和日历，让 Agent 帮你过滤重要内容，省去手动翻找的时间。"
+      },
+      "examples": {
+        "en": [
+          "Summarize today's unread Feishu messages",
+          "Digest the key points of this Feishu doc",
+          "Organize today's meeting action items into a Feishu doc",
+          "What's on my Feishu calendar today?"
+        ],
+        "zh": [
+          "帮我汇总今天的飞书未读消息",
+          "摘要这份飞书文档的重点",
+          "整理今天会议的 action items 到飞书文档",
+          "我的飞书日历今天有哪些安排？"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/feishu",
+  "curator": "clawhub",
+  "created": "2026-03-27"
+}
