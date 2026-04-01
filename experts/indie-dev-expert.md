@@ -15,37 +15,9 @@
 clawhub install openclaw/github openclaw/coding-agent openclaw/xurl anthropics/skill-creator
 ```
 
-## Step 2: Configure
+## Step 2: Try it
 
-Each skill may need credentials or auth before it can act on your behalf.
-
-### openclaw/github
-
-_Manage PRs, Issues, and CI from the terminal — stay close to the code without context switching._
-
-- Authenticate with the GitHub CLI: run `gh auth login` and follow the prompts
-- Choose HTTPS or SSH, then log in via browser — no extra tokens needed
-- The skill uses `gh` under the hood, so all your existing GitHub access applies
-
-### openclaw/coding-agent
-
-_Delegate test generation, boilerplate, and repetitive refactors to Claude Code or Codex — stay in flow on the parts only you can do._
-
-- Ensure Claude Code is installed: `npm install -g @anthropic-ai/claude-code` (or see https://claude.ai/code)
-- Optional — for Codex delegation: `npm install -g @openai/codex` then `codex login`
-- No extra environment variables needed if Claude Code is already working in your session
-
-### openclaw/xurl
-
-_Announce releases, share what you're building, and engage with users who reply — building in public is how indie devs grow._
-
-- Apply for an X Developer account at https://developer.twitter.com (free tier is sufficient)
-- Create a project and app, then generate API Key, API Secret, Access Token, and Access Token Secret with Read+Write permissions
-- Set four environment variables: `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_TOKEN_SECRET`
-
-## Step 3: Try it
-
-After setup, say these to your agent to verify everything works:
+After setup, say these to your agent:
 
 **openclaw/github**
 

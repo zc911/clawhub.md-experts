@@ -910,6 +910,111 @@
     "created": "2026-03-26"
   },
   {
+    "slug": "newsletter-expert",
+    "name": {
+      "en": "Newsletter Curator",
+      "zh": "Newsletter 策展人"
+    },
+    "description": {
+      "en": "research, draft, and send your newsletter — without leaving the terminal",
+      "zh": "从素材研究到发送，全程在终端完成你的 Newsletter"
+    },
+    "goal": {
+      "en": "Ship your newsletter every week",
+      "zh": "每周准时发出 Newsletter"
+    },
+    "outcome": {
+      "en": "Summarize the week's best articles into post ideas, draft issues in Notion, promote on X, and send to subscribers via Gmail — a complete weekly publishing workflow in one agent.",
+      "zh": "把本周最佳文章汇总成写作素材，在 Notion 起草期刊，在 X 推广，通过 Gmail 发送给订阅者——一个 Agent 完成完整的每周发布流程。"
+    },
+    "division": "Content",
+    "skillsWithReason": [
+      {
+        "slug": "openclaw/summarize",
+        "reason": {
+          "en": "Digest articles, threads, and research papers into tight summaries — the raw material for every issue.",
+          "zh": "把文章、帖子和研究论文提炼成简洁摘要——每一期的原始素材。"
+        },
+        "order": 1,
+        "examples": {
+          "en": [
+            "Summarize the 5 most interesting AI articles from this week",
+            "TL;DR this research paper for a non-technical audience",
+            "Give me 3 key takeaways from this product launch"
+          ],
+          "zh": [
+            "摘要本周最有价值的 5 篇 AI 文章",
+            "为非技术读者 TL;DR 这篇研究论文",
+            "提炼这次产品发布的 3 个核心要点"
+          ]
+        }
+      },
+      {
+        "slug": "openclaw/notion",
+        "reason": {
+          "en": "Draft and structure each issue in Notion — keep a content backlog, outline sections, and finalize before sending.",
+          "zh": "在 Notion 起草和整理每一期内容——维护内容积压、规划章节结构，发送前完成定稿。"
+        },
+        "order": 2,
+        "examples": {
+          "en": [
+            "Create a new newsletter draft in Notion for this week",
+            "Add these 3 summaries to my newsletter backlog",
+            "Show me what's in my newsletter drafts"
+          ],
+          "zh": [
+            "在 Notion 新建本周 Newsletter 草稿",
+            "把这 3 个摘要加入我的 Newsletter 素材库",
+            "查看我的 Newsletter 草稿列表"
+          ]
+        }
+      },
+      {
+        "slug": "openclaw/gog",
+        "reason": {
+          "en": "Send the finished issue to your subscriber list via Gmail and track replies — close the loop on every edition.",
+          "zh": "通过 Gmail 向订阅者名单发送成品期刊并追踪回复——每期都有始有终。"
+        },
+        "order": 3,
+        "examples": {
+          "en": [
+            "Send this newsletter draft to my subscriber list",
+            "How many replies did last week's newsletter get?",
+            "Draft a re-engagement email for inactive subscribers"
+          ],
+          "zh": [
+            "把这期 Newsletter 草稿发给订阅者名单",
+            "上周的 Newsletter 收到了多少回复？",
+            "为不活跃订阅者起草一封重新激活邮件"
+          ]
+        }
+      },
+      {
+        "slug": "openclaw/xurl",
+        "reason": {
+          "en": "Tease each issue on X to drive signups — post a thread with the top 3 insights before the full edition goes out.",
+          "zh": "在 X 上预告每一期内容以吸引订阅——在完整版发出前发布包含 3 个核心洞察的推文串。"
+        },
+        "order": 4,
+        "examples": {
+          "en": [
+            "Post a teaser thread for this week's newsletter",
+            "Check X engagement on my last newsletter promo",
+            "Draft 3 tweet ideas from this week's issue"
+          ],
+          "zh": [
+            "发布本周 Newsletter 的预告推文串",
+            "查看上期 Newsletter 推广的 X 互动数据",
+            "从本期内容提炼 3 个推文思路"
+          ]
+        }
+      }
+    ],
+    "installAll": "clawhub install openclaw/summarize openclaw/notion openclaw/gog openclaw/xurl",
+    "curator": "clawhub",
+    "created": "2026-04-01"
+  },
+  {
     "slug": "open-source-expert",
     "name": {
       "en": "OSS Maintainer",

@@ -17,7 +17,7 @@ clawhub install openclaw/feishu
 
 ## Step 2: Try it
 
-After setup, say these to your agent to verify everything works:
+After setup, say these to your agent:
 
 **openclaw/feishu**
 

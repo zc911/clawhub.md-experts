@@ -15,21 +15,9 @@
 clawhub install anthropics/claude-api anthropics/mcp-builder anthropics/skill-creator openclaw/coding-agent
 ```
 
-## Step 2: Configure
+## Step 2: Try it
 
-Each skill may need credentials or auth before it can act on your behalf.
-
-### openclaw/coding-agent
-
-_Delegate boilerplate, test generation, and refactors to Claude Code or Codex — so you stay in flow on architecture and product._
-
-- Ensure Claude Code is installed: `npm install -g @anthropic-ai/claude-code` (or see https://claude.ai/code)
-- Optional — for Codex delegation: `npm install -g @openai/codex` then `codex login`
-- No extra environment variables needed if Claude Code is already working in your session
-
-## Step 3: Try it
-
-After setup, say these to your agent to verify everything works:
+After setup, say these to your agent:
 
 **anthropics/claude-api**
 

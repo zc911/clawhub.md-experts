@@ -15,37 +15,9 @@
 clawhub install openclaw/obsidian openclaw/notion openclaw/summarize anthropics/pdf
 ```
 
-## Step 2: Configure
+## Step 2: Try it
 
-Each skill may need credentials or auth before it can act on your behalf.
-
-### openclaw/obsidian
-
-_Your second brain — search, create, and link notes in your local Obsidian vault so ideas connect across everything you've read._
-
-- Set your vault path: add `OBSIDIAN_VAULT_PATH=/absolute/path/to/your/vault` to your environment
-- No external auth needed — the skill reads and writes directly to your local vault
-- Tip: use `echo $OBSIDIAN_VAULT_PATH` to verify the path is set correctly
-
-### openclaw/notion
-
-_Draft long-form posts, maintain a content calendar, and publish finalized pieces to your Notion workspace._
-
-- Go to https://www.notion.so/my-integrations → "New integration" → give it a name
-- Copy the "Internal Integration Secret" (starts with `ntn_`)
-- Set environment variable: `NOTION_TOKEN=ntn_your_secret`
-- In each Notion page or database you want to use: click "..." → "Connect to" → select your integration
-
-### openclaw/summarize
-
-_Turn any URL, PDF, or YouTube link into a concise summary — the fastest way to absorb sources and capture the key points worth keeping._
-
-- No external accounts or API keys needed
-- Works immediately after install — paste any URL, file path, or YouTube link
-
-## Step 3: Try it
-
-After setup, say these to your agent to verify everything works:
+After setup, say these to your agent:
 
 **openclaw/obsidian**
 

@@ -15,35 +15,9 @@
 clawhub install openclaw/gog openclaw/weather openclaw/summarize
 ```
 
-## Step 2: Configure
+## Step 2: Try it
 
-Each skill may need credentials or auth before it can act on your behalf.
-
-### openclaw/gog
-
-_Pull urgent emails and check today's calendar — get the full picture of your day without opening Gmail._
-
-- Run `/gog auth` to start the Google OAuth flow
-- Grant access to Gmail, Calendar, Drive, and Sheets when prompted
-- Auth persists across sessions — re-run if you ever revoke access
-
-### openclaw/weather
-
-_Get the weather for your location so you can plan your day — commute, lunch, travel, whatever._
-
-- No configuration needed — uses public APIs (wttr.in and Open-Meteo)
-- Works immediately after install
-
-### openclaw/summarize
-
-_TL;DR a long email thread, article, or doc when you only have 2 minutes to get up to speed._
-
-- No external accounts or API keys needed
-- Works immediately after install — paste any URL, file path, or YouTube link
-
-## Step 3: Try it
-
-After setup, say these to your agent to verify everything works:
+After setup, say these to your agent:
 
 **openclaw/gog**
 

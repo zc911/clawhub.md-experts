@@ -15,36 +15,9 @@
 clawhub install openclaw/gog openclaw/weather openclaw/obsidian openclaw/clawhub
 ```
 
-## Step 2: Configure
+## Step 2: Try it
 
-Each skill may need credentials or auth before it can act on your behalf.
-
-### openclaw/gog
-
-_Your day starts with email and calendar — let your Agent triage the inbox, flag what needs a response, and surface what's on your schedule._
-
-- Run `/gog auth` to start the Google OAuth flow
-- Grant access to Gmail, Calendar, Drive, and Sheets when prompted
-- Auth persists across sessions — re-run if you ever revoke access
-
-### openclaw/weather
-
-_Check the forecast before you plan outdoor activities, commute decisions, or travel — no app-switching needed._
-
-- No configuration needed — uses public APIs (wttr.in and Open-Meteo)
-- Works immediately after install
-
-### openclaw/obsidian
-
-_Capture every idea, bookmark, and stray thought directly into your Obsidian vault — before it slips away._
-
-- Set your vault path: add `OBSIDIAN_VAULT_PATH=/absolute/path/to/your/vault` to your environment
-- No external auth needed — the skill reads and writes directly to your local vault
-- Tip: use `echo $OBSIDIAN_VAULT_PATH` to verify the path is set correctly
-
-## Step 3: Try it
-
-After setup, say these to your agent to verify everything works:
+After setup, say these to your agent:
 
 **openclaw/gog**
 

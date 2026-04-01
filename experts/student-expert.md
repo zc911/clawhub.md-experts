@@ -15,36 +15,9 @@
 clawhub install openclaw/summarize openclaw/obsidian anthropics/pdf openclaw/gog
 ```
 
-## Step 2: Configure
+## Step 2: Try it
 
-Each skill may need credentials or auth before it can act on your behalf.
-
-### openclaw/summarize
-
-_Summarize academic papers, lecture videos, and reading list articles in seconds — compress hours of reading into minutes._
-
-- No external accounts or API keys needed
-- Works immediately after install — paste any URL, file path, or YouTube link
-
-### openclaw/obsidian
-
-_Build a connected note system in your Obsidian vault — save summaries, link concepts, and search across everything you've studied._
-
-- Set your vault path: add `OBSIDIAN_VAULT_PATH=/absolute/path/to/your/vault` to your environment
-- No external auth needed — the skill reads and writes directly to your local vault
-- Tip: use `echo $OBSIDIAN_VAULT_PATH` to verify the path is set correctly
-
-### openclaw/gog
-
-_Keep your study schedule and assignment deadlines in Google Calendar, and save research notes to Drive — the backbone of your academic workflow._
-
-- Run `/gog auth` to start the Google OAuth flow
-- Grant access to Gmail, Calendar, Drive, and Sheets when prompted
-- Auth persists across sessions — re-run if you ever revoke access
-
-## Step 3: Try it
-
-After setup, say these to your agent to verify everything works:
+After setup, say these to your agent:
 
 **openclaw/summarize**
 
