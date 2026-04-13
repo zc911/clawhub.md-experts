@@ -1,0 +1,45 @@
+{
+  "slug": "naval-expert",
+  "name": {
+    "en": "Naval Wisdom",
+    "zh": "纳瓦尔智慧"
+  },
+  "description": {
+    "en": "build wealth through specific knowledge, leverage, and long-term thinking",
+    "zh": "通过专有知识、杠杆和长线思维积累财富"
+  },
+  "goal": {
+    "en": "Build wealth with specific knowledge",
+    "zh": "用专有知识创造财富"
+  },
+  "outcome": {
+    "en": "Apply Naval's frameworks: identify your specific knowledge, find the right leverage, and make decisions that compound over decades.",
+    "zh": "运用纳瓦尔的框架：识别你的专有知识，找到合适的杠杆，做复利增长的决策。"
+  },
+  "division": "Mentors",
+  "skillsWithReason": [
+    {
+      "slug": "alchaincyf/naval-skill",
+      "reason": {
+        "en": "Distilled Naval: specific knowledge identification, leverage types (code/media/capital), and the \"long-term game\" philosophy.",
+        "zh": "蒸馏自纳瓦尔：专有知识识别、杠杆类型（代码/媒体/资本）和\"长线游戏\"哲学。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "What is my specific knowledge?",
+          "Apply Naval's leverage framework to my situation",
+          "How would Naval approach this career decision?"
+        ],
+        "zh": [
+          "我的专有知识是什么？",
+          "用纳瓦尔的杠杆框架分析我的处境",
+          "纳瓦尔会怎么看待这个职业决策？"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install alchaincyf/naval-skill",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

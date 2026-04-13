@@ -1,0 +1,45 @@
+{
+  "slug": "design-masters-expert",
+  "name": {
+    "en": "Design Masters Council",
+    "zh": "设计大师议事会"
+  },
+  "description": {
+    "en": "Rams, Vignelli, Bass, Scher, Carson — graphic design critique across 7 masters",
+    "zh": "Rams、Vignelli、Bass 等7位大师联合评审你的设计"
+  },
+  "goal": {
+    "en": "Get world-class design critique",
+    "zh": "获得世界级设计评审"
+  },
+  "outcome": {
+    "en": "Run your visual design past seven graphic design masters — Dieter Rams on function, Vignelli on grid, Saul Bass on concept, and more.",
+    "zh": "让七位平面设计大师评审你的视觉设计——Dieter Rams 谈功能，Vignelli 谈网格，Saul Bass 谈概念。"
+  },
+  "division": "Mentors",
+  "skillsWithReason": [
+    {
+      "slug": "HermeticOrmus/design-mastery",
+      "reason": {
+        "en": "Seven masters in one skill: Rams (less is more), Vignelli (grid systems), Bass (concept), Scher (typography), Brockmann, Carson, and Rand.",
+        "zh": "七位大师合一：Rams（少即是多）、Vignelli（网格系统）、Bass（概念）、Scher（排版）、Brockmann、Carson、Rand。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Critique this logo design across all seven masters",
+          "What would Dieter Rams remove from this UI?",
+          "Review this typography through Vignelli's lens"
+        ],
+        "zh": [
+          "让七位大师评审这个 Logo 设计",
+          "Dieter Rams 会去掉这个 UI 里的什么？",
+          "用 Vignelli 的视角评审这段排版"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install HermeticOrmus/design-mastery",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

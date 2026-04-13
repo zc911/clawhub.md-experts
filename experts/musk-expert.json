@@ -1,0 +1,45 @@
+{
+  "slug": "musk-expert",
+  "name": {
+    "en": "Musk First Principles",
+    "zh": "马斯克第一性原理"
+  },
+  "description": {
+    "en": "challenge assumptions and design for 10x outcomes, not 10%",
+    "zh": "打破假设，以10倍而非10%的目标来设计方案"
+  },
+  "goal": {
+    "en": "Think and build at 10x scale",
+    "zh": "以10倍规模思考和构建"
+  },
+  "outcome": {
+    "en": "Apply Musk's first-principles method: decompose any problem to its physical limits, question every constraint, and build toward what's actually possible.",
+    "zh": "运用马斯克的第一性原理方法：把任何问题分解到物理极限，质疑每一个约束，向真正可能的方向构建。"
+  },
+  "division": "Mentors",
+  "skillsWithReason": [
+    {
+      "slug": "alchaincyf/elon-musk-skill",
+      "reason": {
+        "en": "Distilled Musk: first-principles decomposition, \"physics as the only constraint\" thinking, and 10x ambition framing.",
+        "zh": "蒸馏自马斯克：第一性原理分解、\"物理学是唯一约束\"思维，以及10倍雄心框架。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Apply first-principles to this engineering constraint",
+          "What would Musk eliminate from this process?",
+          "Challenge every assumption in this plan"
+        ],
+        "zh": [
+          "对这个工程约束用第一性原理分析",
+          "马斯克会从这个流程中去掉什么？",
+          "质疑这个计划里的所有假设"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install alchaincyf/elon-musk-skill",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

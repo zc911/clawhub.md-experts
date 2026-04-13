@@ -1,0 +1,45 @@
+{
+  "slug": "rob-pike-expert",
+  "name": {
+    "en": "Rob Pike Systems Mind",
+    "zh": "Rob Pike 系统思维"
+  },
+  "description": {
+    "en": "Unix philosophy, Go design principles, and \"less is more\" engineering",
+    "zh": "Unix 哲学、Go 设计原则与\"少即是多\"工程思维"
+  },
+  "goal": {
+    "en": "Design simpler, cleaner systems",
+    "zh": "设计更简洁的系统"
+  },
+  "outcome": {
+    "en": "Apply Rob Pike's design philosophy: question complexity, prefer composition over inheritance, and write code that reads like prose.",
+    "zh": "运用 Rob Pike 的设计哲学：质疑复杂性，偏好组合而非继承，写出像散文一样可读的代码。"
+  },
+  "division": "Mentors",
+  "skillsWithReason": [
+    {
+      "slug": "smallnest/rob-pike-skill",
+      "reason": {
+        "en": "Distilled Rob Pike: Unix design rules, Go idioms, and the \"clarity over cleverness\" doctrine.",
+        "zh": "蒸馏自 Rob Pike：Unix 设计规则、Go 惯用法，以及\"清晰胜于聪明\"原则。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Review this API design for simplicity",
+          "Apply Rob Pike's rules to this system",
+          "What would Rob Pike remove from this interface?"
+        ],
+        "zh": [
+          "审查这个 API 设计的简洁性",
+          "把 Rob Pike 的规则应用到这个系统",
+          "Rob Pike 会去掉这个接口里的什么？"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install smallnest/rob-pike-skill",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

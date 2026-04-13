@@ -1,0 +1,53 @@
+{
+  "slug": "feynman-expert",
+  "name": {
+    "en": "Feynman Explainer",
+    "zh": "费曼解释者"
+  },
+  "description": {
+    "en": "explain any complex idea simply, teach from first principles",
+    "zh": "把任何复杂概念说清楚，从第一性原理出发"
+  },
+  "goal": {
+    "en": "Explain anything simply",
+    "zh": "把任何事情讲清楚"
+  },
+  "outcome": {
+    "en": "Apply Feynman's explanation methodology to papers, code, or ideas — if you can't explain it simply, you don't understand it yet.",
+    "zh": "用费曼的解释方法处理论文、代码或想法——如果你说不清楚，说明还没真正理解。"
+  },
+  "division": "Mentors",
+  "skillsWithReason": [
+    {
+      "slug": "alchaincyf/feynman-skill",
+      "reason": {
+        "en": "Distilled Feynman teaching methodology: first principles, analogy-first explanations, and the \"no jargon\" rule.",
+        "zh": "蒸馏自费曼教学法：第一性原理、类比优先的解释方式，以及\"禁用行话\"原则。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Explain this paper like Feynman would",
+          "Break down quantum computing from scratch",
+          "Find the simplest mental model for this concept"
+        ],
+        "zh": [
+          "像费曼一样解释这篇论文",
+          "从零讲清楚量子计算",
+          "为这个概念找到最简洁的心智模型"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/summarize",
+      "reason": {
+        "en": "Feed any paper or doc to the Feynman skill — summarize first, then explain.",
+        "zh": "把任意论文或文档喂给费曼 skill——先摘要，再解释。"
+      },
+      "order": 2
+    }
+  ],
+  "installAll": "clawhub install alchaincyf/feynman-skill openclaw/summarize",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

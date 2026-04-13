@@ -1,0 +1,45 @@
+{
+  "slug": "pg-expert",
+  "name": {
+    "en": "Paul Graham Advisor",
+    "zh": "PG 创业顾问"
+  },
+  "description": {
+    "en": "startup advice, clear writing, and contrarian market insight from PG",
+    "zh": "创业建议、清晰写作和 PG 式反共识市场洞察"
+  },
+  "goal": {
+    "en": "Think clearer about startups and writing",
+    "zh": "更清晰地思考创业与写作"
+  },
+  "outcome": {
+    "en": "Get PG's perspective on your startup, market, or essay — direct feedback on what's actually hard and what's a distraction.",
+    "zh": "获得 PG 对你的创业、市场或文章的视角——关于什么才是真正难题、什么是干扰的直接反馈。"
+  },
+  "division": "Mentors",
+  "skillsWithReason": [
+    {
+      "slug": "alchaincyf/paul-graham-skill",
+      "reason": {
+        "en": "\"do things that don't scale\" instinct, contrarian market take, and the relentless clarity doctrine in writing.",
+        "zh": "蒸馏自 PG：做那些无法规模化的事情的本能、反共识市场判断，以及写作中毫不妥协的清晰原则。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Review my startup idea through PG's lens",
+          "What would PG say about this market?",
+          "Edit this essay to be clearer and more direct"
+        ],
+        "zh": [
+          "用 PG 的视角审查我的创业想法",
+          "PG 会怎么看这个市场？",
+          "把这篇文章改得更清晰更直接"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install alchaincyf/paul-graham-skill",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

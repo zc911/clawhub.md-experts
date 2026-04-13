@@ -1,0 +1,45 @@
+{
+  "slug": "zhangxuefeng-expert",
+  "name": {
+    "en": "Zhang Xuefeng Career Advisor",
+    "zh": "张雪峰志愿填报顾问"
+  },
+  "description": {
+    "en": "Chinese college application and career planning with Zhang Xuefeng's direct style",
+    "zh": "张雪峰式的高考志愿填报与职业规划直接建议"
+  },
+  "goal": {
+    "en": "Navigate Chinese college applications and career",
+    "zh": "搞定高考志愿与职业规划"
+  },
+  "outcome": {
+    "en": "Get Zhang Xuefeng's no-nonsense advice on college major selection, career prospects, and the realities of the Chinese job market.",
+    "zh": "获得张雪峰式的直接建议：专业选择、就业前景，以及中国就业市场的现实。"
+  },
+  "division": "中文专区",
+  "skillsWithReason": [
+    {
+      "slug": "alchaincyf/zhangxuefeng-skill",
+      "reason": {
+        "en": "Distilled Zhang Xuefeng: blunt college major ranking, regional job market realities, and \"don't choose based on passion, choose based on prospects.\"",
+        "zh": "蒸馏自张雪峰：直白的专业排名、各地就业市场现实，以及\"不要凭兴趣选，要凭前景选\"原则。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Which major should a science student choose?",
+          "Analyze the risks in this college application combination",
+          "What's the job market like for this major in this city?"
+        ],
+        "zh": [
+          "理科生应该填报什么专业？",
+          "分析这个志愿组合的风险",
+          "这个城市这个专业的就业情况怎么样？"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install alchaincyf/zhangxuefeng-skill",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

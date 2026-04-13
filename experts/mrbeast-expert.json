@@ -1,0 +1,45 @@
+{
+  "slug": "mrbeast-expert",
+  "name": {
+    "en": "MrBeast Content Engine",
+    "zh": "野兽先生内容引擎"
+  },
+  "description": {
+    "en": "virality, retention, and attention engineering from the world's top creator",
+    "zh": "来自全球顶级创作者的病毒传播、留存和注意力工程"
+  },
+  "goal": {
+    "en": "Engineer viral content and maximum retention",
+    "zh": "打造病毒内容与最大留存率"
+  },
+  "outcome": {
+    "en": "Apply MrBeast's content methodology: hook in 3 seconds, maintain tension throughout, and optimize every frame for retention.",
+    "zh": "运用野兽先生的内容方法论：3秒内抓住注意力，全程保持张力，对每一帧做留存优化。"
+  },
+  "division": "Mentors",
+  "skillsWithReason": [
+    {
+      "slug": "alchaincyf/mrbeast-skill",
+      "reason": {
+        "en": "Distilled MrBeast: the hook formula, tension maintenance, thumbnail psychology, and the reinvestment mindset.",
+        "zh": "蒸馏自野兽先生：钩子公式、张力维持、缩略图心理学，以及再投入心态。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Rework this video hook for maximum retention",
+          "What would MrBeast change about this thumbnail?",
+          "Apply the MrBeast content loop to this idea"
+        ],
+        "zh": [
+          "为最大留存率重写这个视频钩子",
+          "野兽先生会怎么改这个缩略图？",
+          "把野兽先生的内容循环应用到这个想法"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install alchaincyf/mrbeast-skill",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "investor-council-expert",
+  "name": {
+    "en": "Investor Council",
+    "zh": "投资大师团"
+  },
+  "description": {
+    "en": "12 investor personas: Buffett, Munger, Lynch, Graham, Burry, and more",
+    "zh": "12位投资大师：巴菲特、芒格、林奇、格雷厄姆、伯里等"
+  },
+  "goal": {
+    "en": "Analyze investments across 12 legendary perspectives",
+    "zh": "从12位传奇视角分析投资"
+  },
+  "outcome": {
+    "en": "Run any investment thesis past 12 legendary investors simultaneously — from Graham's safety margin to Cathie Wood's disruption lens.",
+    "zh": "同时让12位传奇投资人审视你的投资论点——从格雷厄姆的安全边际到 Cathie Wood 的颠覆视角。"
+  },
+  "division": "Mentors",
+  "skillsWithReason": [
+    {
+      "slug": "ancs21/ai-sub-invest",
+      "reason": {
+        "en": "12 investor personas: Buffett, Munger, Ben Graham, Peter Lynch, Phil Fisher, Michael Burry, Pabrai, Ackman, Cathie Wood, Druckenmiller, Jhunjhunwala, Damodaran.",
+        "zh": "12位投资人视角：巴菲特、芒格、格雷厄姆、林奇、费雪、伯里、帕布莱、阿克曼、木头姐、德鲁肯米勒、拉克什、达摩达兰。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Run this investment thesis past all 12 investors",
+          "What would Peter Lynch think of this growth stock?",
+          "Apply Ben Graham's margin of safety here"
+        ],
+        "zh": [
+          "让12位投资人审视这个投资论点",
+          "彼得·林奇会怎么看这支成长股？",
+          "在这里应用本·格雷厄姆的安全边际"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install ancs21/ai-sub-invest",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

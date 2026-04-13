@@ -1,0 +1,53 @@
+{
+  "slug": "buffett-expert",
+  "name": {
+    "en": "Buffett Investor",
+    "zh": "巴菲特投资人"
+  },
+  "description": {
+    "en": "value investing with Buffett's 6 mental models and 8 decision heuristics",
+    "zh": "以巴菲特6大心智模型和8条决策启发进行价值投资"
+  },
+  "goal": {
+    "en": "Invest with Buffett's mental models",
+    "zh": "用巴菲特的心智模型做投资"
+  },
+  "outcome": {
+    "en": "Apply Buffett's owner mindset: economic moat analysis, circle of competence check, and Mr. Market patience — before every investment decision.",
+    "zh": "运用巴菲特的所有者心态：经济护城河分析、能力圈检查，以及在每次投资决策前的市场先生耐心。"
+  },
+  "division": "Mentors",
+  "skillsWithReason": [
+    {
+      "slug": "will2025btc/buffett-perspective",
+      "reason": {
+        "en": "Six mental models (moat, circle of competence, Mr. Market, compounding, institutional imperative, owner mindset) + 8 decision heuristics.",
+        "zh": "六大心智模型（护城河、能力圈、市场先生、复利、机构强制性、所有者心态）+ 8条决策启发。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Analyze this company through Buffett's lens",
+          "Is this within my circle of competence?",
+          "What's the economic moat here?"
+        ],
+        "zh": [
+          "用巴菲特的视角分析这家公司",
+          "这在我的能力圈范围内吗？",
+          "这里的经济护城河是什么？"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/summarize",
+      "reason": {
+        "en": "Read annual reports and financial filings — feed them to the Buffett skill for analysis.",
+        "zh": "阅读年报和财务文件，喂给巴菲特 skill 进行分析。"
+      },
+      "order": 2
+    }
+  ],
+  "installAll": "clawhub install will2025btc/buffett-perspective openclaw/summarize",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

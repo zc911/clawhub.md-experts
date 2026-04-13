@@ -1,0 +1,45 @@
+{
+  "slug": "nuwa-expert",
+  "name": {
+    "en": "Nuwa Persona Forge",
+    "zh": "女娲人格蒸馏器"
+  },
+  "description": {
+    "en": "distill any public figure into an installable agent skill in minutes",
+    "zh": "几分钟内把任何公众人物蒸馏成可安装的 Agent Skill"
+  },
+  "goal": {
+    "en": "Build your own mentor skill from any public figure",
+    "zh": "为任何人物创建专属导师 Skill"
+  },
+  "outcome": {
+    "en": "Use 6 parallel research agents to distill any public figure's mental models, decision patterns, and communication style into a reusable SKILL.md.",
+    "zh": "用6个并行研究 Agent 把任何公众人物的心智模型、决策模式和表达风格蒸馏成可复用的 SKILL.md。"
+  },
+  "division": "Mentors",
+  "skillsWithReason": [
+    {
+      "slug": "alchaincyf/nuwa-skill",
+      "reason": {
+        "en": "The generator: 6 parallel research agents that distill any person into SKILL.md.",
+        "zh": "生成器本身：6个并行研究 Agent 把任何人物蒸馏成 SKILL.md。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Distill Charlie Munger into a skill",
+          "Create a Jensen Huang leadership skill",
+          "Generate a Confucius wisdom skill"
+        ],
+        "zh": [
+          "把查理·芒格蒸馏成一个 Skill",
+          "创建一个黄仁勋领导力 Skill",
+          "生成一个孔子智慧 Skill"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install alchaincyf/nuwa-skill",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

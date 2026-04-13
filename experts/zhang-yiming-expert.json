@@ -1,0 +1,45 @@
+{
+  "slug": "zhang-yiming-expert",
+  "name": {
+    "en": "Zhang Yiming Strategist",
+    "zh": "张一鸣产品战略家"
+  },
+  "description": {
+    "en": "ByteDance product strategy and scale-first thinking from Zhang Yiming",
+    "zh": "字节跳动式产品战略与规模优先思维"
+  },
+  "goal": {
+    "en": "Build products with ByteDance-scale thinking",
+    "zh": "用字节跳动规模思维做产品"
+  },
+  "outcome": {
+    "en": "Apply Zhang Yiming's product methodology: data-driven iteration, algorithm-first distribution, and ruthless prioritization for scale.",
+    "zh": "运用张一鸣的产品方法论：数据驱动迭代、算法优先分发，以及针对规模的无情优先级排序。"
+  },
+  "division": "中文专区",
+  "skillsWithReason": [
+    {
+      "slug": "alchaincyf/zhang-yiming-skill",
+      "reason": {
+        "en": "Distilled Zhang Yiming: recommendation algorithm thinking, product metrics culture, and the ByteDance organizational philosophy.",
+        "zh": "蒸馏自张一鸣：推荐算法思维、产品数据文化，以及字节跳动的组织哲学。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Evaluate this product strategy with Zhang Yiming's lens",
+          "How would ByteDance approach this growth problem?",
+          "What metrics would Zhang Yiming track first?"
+        ],
+        "zh": [
+          "从张一鸣的视角评估这个产品策略",
+          "字节跳动会怎么解决这个增长问题？",
+          "张一鸣会先追踪哪些指标？"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install alchaincyf/zhang-yiming-skill",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

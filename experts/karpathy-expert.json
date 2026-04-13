@@ -1,0 +1,45 @@
+{
+  "slug": "karpathy-expert",
+  "name": {
+    "en": "Karpathy AI Engineer",
+    "zh": "Karpathy AI 工程师"
+  },
+  "description": {
+    "en": "deep learning intuition, model debugging, and AI engineering taste",
+    "zh": "深度学习直觉、模型调试和 AI 工程品味"
+  },
+  "goal": {
+    "en": "Debug and build ML systems with expert intuition",
+    "zh": "以专家直觉调试和构建 ML 系统"
+  },
+  "outcome": {
+    "en": "Apply Karpathy's AI engineering mindset: measure everything, understand your loss curves, and build intuition through hands-on experimentation.",
+    "zh": "运用 Karpathy 的 AI 工程思维：量化一切，理解你的损失曲线，通过实践积累直觉。"
+  },
+  "division": "Mentors",
+  "skillsWithReason": [
+    {
+      "slug": "alchaincyf/karpathy-skill",
+      "reason": {
+        "en": "Distilled Karpathy: \"implement from scratch to understand\", loss curve intuition, and AI engineering taste.",
+        "zh": "蒸馏自 Karpathy：\"从零实现才能真正理解\"、损失曲线直觉，以及 AI 工程品味。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Debug this training run like Karpathy would",
+          "What metrics actually matter here?",
+          "Explain what's happening inside this model"
+        ],
+        "zh": [
+          "像 Karpathy 一样调试这次训练",
+          "这里真正重要的指标是什么？",
+          "解释这个模型内部发生了什么"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install alchaincyf/karpathy-skill",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

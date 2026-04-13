@@ -1,0 +1,45 @@
+{
+  "slug": "x-creator-expert",
+  "name": {
+    "en": "X Creator Growth",
+    "zh": "X 创作者增长"
+  },
+  "description": {
+    "en": "write for engagement and growth on X — distilled from top creators",
+    "zh": "在 X 上写出高互动内容，提炼自顶级创作者经验"
+  },
+  "goal": {
+    "en": "Grow on X with creator-tested writing",
+    "zh": "用经过验证的写作方法在 X 上增长"
+  },
+  "outcome": {
+    "en": "Apply the X creator playbook: thread structure, hook writing, engagement loops, and the cadence that top accounts use to compound their audience.",
+    "zh": "运用 X 创作者剧本：Thread 结构、钩子写作、互动循环，以及顶级账号用于复利增长粉丝的节奏。"
+  },
+  "division": "Mentors",
+  "skillsWithReason": [
+    {
+      "slug": "alchaincyf/x-mentor-skill",
+      "reason": {
+        "en": "Distilled from top X creators — writing patterns that drive engagement and follower growth.",
+        "zh": "提炼自顶级 X 创作者——驱动互动和粉丝增长的写作模式。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Rewrite this thread for maximum engagement",
+          "Turn this idea into a viral X post",
+          "Critique my X content strategy"
+        ],
+        "zh": [
+          "为最大互动重写这个 Thread",
+          "把这个想法变成病毒式 X 帖子",
+          "评审我的 X 内容策略"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install alchaincyf/x-mentor-skill",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

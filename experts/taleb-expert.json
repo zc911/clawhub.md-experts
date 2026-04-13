@@ -1,0 +1,45 @@
+{
+  "slug": "taleb-expert",
+  "name": {
+    "en": "Taleb Risk Lens",
+    "zh": "塔勒布风险思维"
+  },
+  "description": {
+    "en": "find hidden tail risks and design antifragile systems",
+    "zh": "发现隐藏的尾部风险，设计反脆弱系统"
+  },
+  "goal": {
+    "en": "Spot fragility and build antifragile systems",
+    "zh": "识别脆弱性，构建反脆弱系统"
+  },
+  "outcome": {
+    "en": "Apply Taleb's risk philosophy: identify hidden exposures, eliminate fragility, and structure systems that gain from disorder.",
+    "zh": "运用塔勒布的风险哲学：识别隐性风险敞口，消除脆弱性，构建从无序中获益的系统。"
+  },
+  "division": "Mentors",
+  "skillsWithReason": [
+    {
+      "slug": "alchaincyf/taleb-skill",
+      "reason": {
+        "en": "Distilled Taleb: fat-tail thinking, \"skin in the game\" test, and antifragility design heuristics.",
+        "zh": "蒸馏自塔勒布：肥尾思维、\"切肤之痛\"检验，以及反脆弱设计启发法。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Identify hidden tail risks in this plan",
+          "Apply the skin-in-the-game test to this decision",
+          "Make this system more antifragile"
+        ],
+        "zh": [
+          "找出这个方案中的隐性尾部风险",
+          "对这个决策做切肤之痛检验",
+          "让这个系统更具反脆弱性"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install alchaincyf/taleb-skill",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "ilya-expert",
+  "name": {
+    "en": "Ilya Research Taste",
+    "zh": "Ilya 研究品味"
+  },
+  "description": {
+    "en": "AI scaling intuition and research direction judgment from Ilya Sutskever",
+    "zh": "Ilya Sutskever 的 AI Scaling 直觉与研究方向判断"
+  },
+  "goal": {
+    "en": "Develop AI research intuition and taste",
+    "zh": "培养 AI 研究直觉与品味"
+  },
+  "outcome": {
+    "en": "Apply Ilya's research perspective: what scaling properties matter, which bets are worth making, and how to reason about emergent capabilities.",
+    "zh": "运用 Ilya 的研究视角：哪些 Scaling 属性重要，哪些赌注值得押，如何推理涌现能力。"
+  },
+  "division": "Mentors",
+  "skillsWithReason": [
+    {
+      "slug": "alchaincyf/ilya-sutskever-skill",
+      "reason": {
+        "en": "Distilled Ilya: scaling laws intuition, emergent capabilities reasoning, and long-bet AI research philosophy.",
+        "zh": "蒸馏自 Ilya：Scaling 定律直觉、涌现能力推理，以及长期押注的 AI 研究哲学。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Think through this research direction with Ilya's lens",
+          "What scaling properties matter most for this problem?",
+          "Review this experiment design for blind spots"
+        ],
+        "zh": [
+          "用 Ilya 的视角思考这个研究方向",
+          "对于这个问题，哪些 Scaling 属性最重要？",
+          "审查这个实验设计的盲点"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install alchaincyf/ilya-sutskever-skill",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

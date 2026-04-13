@@ -1,0 +1,45 @@
+{
+  "slug": "council-expert",
+  "name": {
+    "en": "Council of 18 Minds",
+    "zh": "18位智者议事会"
+  },
+  "description": {
+    "en": "Aristotle, Feynman, Lao Tzu, Turing, Munger — 18 great minds deliberate your problem",
+    "zh": "亚里士多德、费曼、老子、图灵、芒格——18位伟大思想家共同审议你的问题"
+  },
+  "goal": {
+    "en": "Get 18 great minds to deliberate your hardest problems",
+    "zh": "让18位伟大思想家共同审议你最难的问题"
+  },
+  "outcome": {
+    "en": "Invoke a cross-examination council spanning philosophy (Aristotle, Socrates, Lao Tzu, Marcus Aurelius), design (Dieter Rams), risk (Taleb), AI (Karpathy, Ilya), systems (Meadows), and more.",
+    "zh": "召集跨领域审议团：哲学（亚里士多德、苏格拉底、老子、Marcus Aurelius）、设计（Dieter Rams）、风险（塔勒布）、AI（Karpathy、Ilya）、系统思维（Meadows）等。"
+  },
+  "division": "Mentors",
+  "skillsWithReason": [
+    {
+      "slug": "0xNyk/council-of-high-intelligence",
+      "reason": {
+        "en": "18 persona agents: Aristotle, Socrates, Sun Tzu, Marcus Aurelius, Machiavelli, Lao Tzu, Ada Lovelace, Feynman, Linus Torvalds, Musashi, Alan Watts, Karpathy, Ilya, Kahneman, Meadows, Dieter Rams, Taleb, Munger.",
+        "zh": "18个人格 Agent：亚里士多德、苏格拉底、孙子、Marcus Aurelius、马基雅维利、老子、Ada Lovelace、费曼、Linus、宫本武藏、Alan Watts、Karpathy、Ilya、卡尼曼、Meadows、Dieter Rams、塔勒布、芒格。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Council, deliberate the ethics of this AI decision",
+          "What do all 18 minds think about this strategy?",
+          "Cross-examine my startup thesis with the full council"
+        ],
+        "zh": [
+          "议事会，审议这个 AI 决策的伦理",
+          "18位思想家怎么看这个策略？",
+          "让完整议事会交叉审查我的创业论点"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install 0xNyk/council-of-high-intelligence",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}

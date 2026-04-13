@@ -1,0 +1,45 @@
+{
+  "slug": "jobs-expert",
+  "name": {
+    "en": "Jobs Product Eye",
+    "zh": "乔布斯产品眼"
+  },
+  "description": {
+    "en": "review products through Jobs' obsession with simplicity and craft",
+    "zh": "以乔布斯对简洁与工艺的执念审视产品"
+  },
+  "goal": {
+    "en": "Design and critique products like Jobs",
+    "zh": "像乔布斯一样设计和审视产品"
+  },
+  "outcome": {
+    "en": "Apply Jobs' product thinking: ruthless simplification, user obsession, and the \"one more thing\" instinct for what matters most.",
+    "zh": "运用乔布斯的产品思维：无情简化、用户执念，以及对最重要事物的本能直觉。"
+  },
+  "division": "Mentors",
+  "skillsWithReason": [
+    {
+      "slug": "alchaincyf/steve-jobs-skill",
+      "reason": {
+        "en": "Distilled Jobs: product simplicity doctrine, \"real artists ship\" instinct, and the reality distortion field.",
+        "zh": "蒸馏自乔布斯：产品简洁信条、\"真正的艺术家会发货\"的本能，以及现实扭曲力场。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Review this product spec from Jobs' perspective",
+          "What would Jobs cut from this feature list?",
+          "Write a product narrative in Jobs' style"
+        ],
+        "zh": [
+          "从乔布斯视角审查这个产品规格",
+          "乔布斯会砍掉功能列表里的哪些？",
+          "用乔布斯的风格写一段产品叙事"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install alchaincyf/steve-jobs-skill",
+  "curator": "clawhub",
+  "created": "2026-04-13"
+}
