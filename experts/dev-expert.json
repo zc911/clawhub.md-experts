@@ -2,13 +2,13 @@
   "slug": "dev-expert",
   "name": { "en": "Ship Expert", "zh": "开发者助理" },
   "description": {
-    "en": "review PRs, track issues, and delegate coding tasks — without leaving the terminal",
-    "zh": "不离开终端，完成 PR 审查、Issue 追踪和代码任务委派"
+    "en": "review PRs, run cloud routines, and ship with parallel worktrees — the modern dev workflow",
+    "zh": "审查 PR、运行云端 Routine、并行 worktree 交付——现代开发者工作流"
   },
   "goal": { "en": "Code, review & ship faster", "zh": "编码、审查、更快交付" },
   "outcome": {
-    "en": "Manage your GitHub workflow and delegate coding tasks to AI agents — all from your agent, with no context switching.",
-    "zh": "通过 Agent 管理 GitHub 工作流并把编码任务委派给 AI——全程无需切换上下文。"
+    "en": "Manage your GitHub workflow, delegate coding tasks to AI agents, run scheduled Routines in the cloud, and use worktree parallelism to ship multiple features at once — all from your agent, with no context switching.",
+    "zh": "通过 Agent 管理 GitHub 工作流、把编码任务委派给 AI、在云端运行定时 Routine、用 worktree 并行同时交付多个功能——全程无需切换上下文。"
   },
   "division": "Engineering",
   "skillsWithReason": [
@@ -53,9 +53,29 @@
           "在后台 agent 中运行这个迁移脚本"
         ]
       }
+    },
+    {
+      "slug": "openclaw/cloud-routines",
+      "reason": {
+        "en": "Schedule CI checks, auto-review routines, and nightly test runs on Anthropic infrastructure — your agent ships even when you're offline.",
+        "zh": "在 Anthropic 基础设施上调度 CI 检查、自动审查 Routine 和夜间测试——即使你离线，Agent 也在交付。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Set up a routine that runs tests when a PR is opened",
+          "Schedule a nightly build and deploy routine",
+          "Auto-assign reviewers via a cloud routine"
+        ],
+        "zh": [
+          "设置 PR 打开时自动运行测试的 Routine",
+          "安排夜间构建和部署 Routine",
+          "通过云端 Routine 自动分配审查者"
+        ]
+      }
     }
   ],
-  "installAll": "clawhub install openclaw/github openclaw/coding-agent",
+  "installAll": "clawhub install openclaw/github openclaw/coding-agent openclaw/cloud-routines",
   "curator": "clawhub",
   "created": "2026-03-27"
 }

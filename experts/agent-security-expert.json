@@ -1,0 +1,85 @@
+{
+  "slug": "agent-security-expert",
+  "name": {
+    "en": "Agent Sentinel",
+    "zh": "Agent 安全哨兵"
+  },
+  "division": "Engineering",
+  "description": {
+    "en": "sandbox execution, injection defense, and permission guardrails for production agents",
+    "zh": "生产级 Agent 的沙盒执行、注入防御和权限护栏"
+  },
+  "goal": {
+    "en": "Secure your agents before they go to production",
+    "zh": "Agent 上线前先上锁"
+  },
+  "outcome": {
+    "en": "Configure sandbox boundaries, detect indirect prompt injections, enforce permission allow/deny lists, and add human-in-the-loop approval for sensitive operations — so your agents are safe to run in production.",
+    "zh": "配置沙盒边界、检测间接提示注入、强制权限白名单/黑名单、为敏感操作添加人工审批——让你的 Agent 安全地跑在生产环境中。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/agent-guard",
+      "reason": {
+        "en": "The core security layer: sandbox configuration, injection detection, permission boundaries, and audit logging — everything your agent needs before it touches production.",
+        "zh": "核心安全层：沙盒配置、注入检测、权限边界和审计日志——Agent 接触生产环境前需要的所有保障。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Set up permission boundaries for my agent",
+          "Block my agent from running sudo or rm -rf",
+          "Scan this URL for indirect prompt injection"
+        ],
+        "zh": [
+          "为我的 Agent 设置权限边界",
+          "禁止 Agent 执行 sudo 或 rm -rf",
+          "扫描这个 URL 是否存在间接提示注入"
+        ]
+      }
+    },
+    {
+      "slug": "anthropics/mcp-builder",
+      "reason": {
+        "en": "Build MCP servers with proper auth and scope — ensure your agent's integrations don't expose more than intended.",
+        "zh": "构建带认证和作用域的 MCP Server——确保 Agent 集成不会暴露超出预期的能力。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "Build an MCP server with scoped read-only access",
+          "Add authentication to my existing MCP server",
+          "Audit my MCP server for excessive permissions"
+        ],
+        "zh": [
+          "构建带作用域只读访问的 MCP Server",
+          "为我现有的 MCP Server 添加认证",
+          "审查我的 MCP Server 是否权限过大"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/coding-agent",
+      "reason": {
+        "en": "Delegate security test generation and vulnerability scanning to a coding agent — automate your security QA.",
+        "zh": "把安全测试生成和漏洞扫描委托给 coding agent——自动化你的安全 QA。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Delegate security test generation to Claude Code",
+          "Have Codex scan this codebase for injection vulnerabilities",
+          "Run OWASP compliance checks in a background agent"
+        ],
+        "zh": [
+          "让 Claude Code 生成安全测试",
+          "让 Codex 扫描代码库的注入漏洞",
+          "在后台 agent 中运行 OWASP 合规检查"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/agent-guard anthropics/mcp-builder openclaw/coding-agent",
+  "curator": "clawhub",
+  "created": "2026-04-30"
+}

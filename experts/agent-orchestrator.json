@@ -1,0 +1,85 @@
+{
+  "slug": "agent-orchestrator",
+  "name": {
+    "en": "Agent Orchestrator",
+    "zh": "Agent 编排师"
+  },
+  "division": "Engineering",
+  "description": {
+    "en": "build multi-agent systems with A2A, MCP, and inter-agent communication",
+    "zh": "用 A2A、MCP 和跨 Agent 通信构建多 Agent 协作系统"
+  },
+  "goal": {
+    "en": "Orchestrate agents that talk to each other",
+    "zh": "编排能互相协作的 Agent"
+  },
+  "outcome": {
+    "en": "Design multi-agent architectures where agents discover each other via A2A Agent Cards, communicate through standard protocols, and build on MCP for tool integration — the full stack for agent-to-agent collaboration.",
+    "zh": "设计多 Agent 架构——Agent 通过 A2A Agent Cards 互相发现，通过标准协议通信，基于 MCP 集成工具——Agent 间协作的完整技术栈。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/a2a",
+      "reason": {
+        "en": "Build agents that discover, communicate, and collaborate using the A2A v1.0 protocol — Agent Cards, skill querying, and task streaming.",
+        "zh": "用 A2A v1.0 协议构建能互相发现、通信和协作的 Agent——Agent Cards、技能查询和任务流式传输。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Create an Agent Card for my research agent",
+          "Discover agents that can handle PDF analysis",
+          "Send a long-running task to another agent with streaming"
+        ],
+        "zh": [
+          "为我的研究 Agent 创建 Agent Card",
+          "发现能处理 PDF 分析的 Agent",
+          "向另一个 Agent 发送长时任务并流式获取结果"
+        ]
+      }
+    },
+    {
+      "slug": "anthropics/mcp-builder",
+      "reason": {
+        "en": "Build MCP servers that give your agents new tools and data sources — the standard integration layer every agent needs.",
+        "zh": "构建 MCP Server，为你的 Agent 提供新工具和数据源——每个 Agent 都需要的标准集成层。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "Build an MCP server for my REST API",
+          "Add a database read tool to my MCP server",
+          "Create an MCP server from scratch"
+        ],
+        "zh": [
+          "为我的 REST API 构建 MCP Server",
+          "给 MCP Server 添加数据库读取工具",
+          "从零创建一个 MCP Server"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/coding-agent",
+      "reason": {
+        "en": "Delegate implementation tasks to Claude Code or Codex while you focus on orchestration logic and agent architecture.",
+        "zh": "把实现任务委托给 Claude Code 或 Codex，自己专注于编排逻辑和 Agent 架构。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Delegate the MCP server boilerplate to a coding agent",
+          "Have Codex scaffold the A2A transport layer",
+          "Run this integration test in a background agent"
+        ],
+        "zh": [
+          "把 MCP Server 脚手架交给 coding agent",
+          "让 Codex 生成 A2A 传输层代码",
+          "在后台 agent 中运行这个集成测试"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/a2a anthropics/mcp-builder openclaw/coding-agent",
+  "curator": "clawhub",
+  "created": "2026-04-30"
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "cloud-agent-ops",
+  "name": {
+    "en": "Cloud Agent Ops",
+    "zh": "云端 Agent 运维"
+  },
+  "division": "Engineering",
+  "description": {
+    "en": "run agents on a schedule, trigger from webhooks, and monitor from anywhere",
+    "zh": "定时运行 Agent、Webhook 触发、随时随地监控"
+  },
+  "goal": {
+    "en": "Run agents in the cloud, not just locally",
+    "zh": "让 Agent 在云端持续运行"
+  },
+  "outcome": {
+    "en": "Set up Claude Code Routines that run on Anthropic infrastructure even when your computer is off, trigger Managed Agents via REST API or webhooks, and push results to Slack, GitHub, or email — cloud-native agent operations.",
+    "zh": "设置在 Anthropic 基础设施上定时运行的 Claude Code Routines（即使电脑关机也照常执行），通过 REST API 或 Webhook 触发 Managed Agent，推送结果到 Slack、GitHub 或邮件——云端原生 Agent 运维。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/cloud-routines",
+      "reason": {
+        "en": "Schedule Claude Code tasks via cron, trigger from GitHub/Slack webhooks, and run Managed Agents in Anthropic's sandbox — the core of cloud agent operations.",
+        "zh": "通过 cron 定时调度 Claude Code 任务，从 GitHub/Slack Webhook 触发，在 Anthropic 沙盒中运行 Managed Agent——云端 Agent 运维的核心。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Set up a routine that runs tests every morning at 9am",
+          "Create a webhook-triggered routine for PR auto-review",
+          "Schedule a weekly report and post to Slack"
+        ],
+        "zh": [
+          "设置每天早 9 点运行测试的 Routine",
+          "创建 Webhook 触发的 PR 自动审查 Routine",
+          "安排每周报告并自动发到 Slack"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/github",
+      "reason": {
+        "en": "Cloud agents need to interact with your repo — review PRs, check CI, and create issues as part of automated workflows.",
+        "zh": "云端 Agent 需要与你的仓库交互——审查 PR、检查 CI、创建 Issue，作为自动化工作流的一部分。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "Check CI status on the release branch",
+          "Auto-assign reviewers when a PR is opened",
+          "Create an issue from the routine output"
+        ],
+        "zh": [
+          "检查发布分支的 CI 状态",
+          "PR 打开时自动分配审查者",
+          "从 Routine 输出创建 Issue"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/coding-agent",
+      "reason": {
+        "en": "Delegate the actual coding work to a local or cloud agent — your routines orchestrate, agents execute.",
+        "zh": "把实际编码工作委托给本地或云端 Agent——你的 Routine 做编排，Agent 做执行。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Have the routine delegate bug fixes to a coding agent",
+          "Run a background agent for the long migration script",
+          "Trigger Codex from a scheduled routine"
+        ],
+        "zh": [
+          "让 Routine 把 bug 修复委托给 coding agent",
+          "在后台 agent 中运行长时间迁移脚本",
+          "从定时 Routine 触发 Codex"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/cloud-routines openclaw/github openclaw/coding-agent",
+  "curator": "clawhub",
+  "created": "2026-04-30"
+}

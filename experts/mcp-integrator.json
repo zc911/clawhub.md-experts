@@ -1,0 +1,85 @@
+{
+  "slug": "mcp-integrator",
+  "name": {
+    "en": "MCP Integrator",
+    "zh": "MCP 集成师"
+  },
+  "division": "Product",
+  "description": {
+    "en": "discover, build, and publish MCP servers — the integration layer for AI agents",
+    "zh": "发现、构建和发布 MCP Server——AI Agent 的标准集成层"
+  },
+  "goal": {
+    "en": "Connect agents to the world via MCP",
+    "zh": "用 MCP 让 Agent 连接全世界"
+  },
+  "outcome": {
+    "en": "Find MCP servers in the Registry and Smithery marketplace, install and configure them for your agent, build custom servers for your APIs, and publish them back to the community — full MCP lifecycle management.",
+    "zh": "在 Registry 和 Smithery 市场找到 MCP Server，安装配置到你的 Agent，为你的 API 构建自定义 Server，发布回社区——完整的 MCP 生命周期管理。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/mcp-registry",
+      "reason": {
+        "en": "Search, install, and publish MCP servers via the official Registry and Smithery marketplace — the discovery and distribution layer for MCP.",
+        "zh": "通过官方 Registry 和 Smithery 市场搜索、安装和发布 MCP Server——MCP 的发现和分发层。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Search for MCP servers that connect to PostgreSQL",
+          "Install the GitHub MCP server from the Registry",
+          "Publish my MCP server for community discovery"
+        ],
+        "zh": [
+          "搜索连接 PostgreSQL 的 MCP Server",
+          "从 Registry 安装 GitHub MCP Server",
+          "发布我的 MCP Server 供社区发现"
+        ]
+      }
+    },
+    {
+      "slug": "anthropics/mcp-builder",
+      "reason": {
+        "en": "Build MCP servers from scratch — tool definitions, resource handlers, prompt templates, and Elicitation support.",
+        "zh": "从零构建 MCP Server——工具定义、资源处理器、提示模板和 Elicitation 支持。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "Build an MCP server for my REST API",
+          "Add Elicitation support for interactive workflows",
+          "Create an MCP server with TypeScript SDK"
+        ],
+        "zh": [
+          "为我的 REST API 构建 MCP Server",
+          "添加 Elicitation 支持实现交互式工作流",
+          "用 TypeScript SDK 创建 MCP Server"
+        ]
+      }
+    },
+    {
+      "slug": "anthropics/skill-creator",
+      "reason": {
+        "en": "Package your MCP integration workflow as a reusable skill — so others can install your server + configuration in one command.",
+        "zh": "把你的 MCP 集成工作流打包成可复用 Skill——让别人一条命令安装你的 Server + 配置。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Package this MCP server as an installable skill",
+          "Create a skill that bundles my MCP server with config",
+          "Audit my skill for MCP best practices"
+        ],
+        "zh": [
+          "把这个 MCP Server 打包成可安装的 Skill",
+          "创建一个将 MCP Server 和配置打包的 Skill",
+          "审查我的 Skill 是否符合 MCP 最佳实践"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/mcp-registry anthropics/mcp-builder anthropics/skill-creator",
+  "curator": "clawhub",
+  "created": "2026-04-30"
+}
