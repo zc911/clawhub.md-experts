@@ -5,14 +5,14 @@
 
 **Goal:** Code, review & ship faster
 
-**What you'll have:** Manage your GitHub workflow and delegate coding tasks to AI agents — all from your agent, with no context switching.
+**What you'll have:** Manage your GitHub workflow, delegate coding tasks to AI agents, run scheduled Routines in the cloud, and use worktree parallelism to ship multiple features at once — all from your agent, with no context switching.
 
 ---
 
 ## Step 1: Install
 
 ```bash
-clawhub install openclaw/github openclaw/coding-agent
+clawhub install openclaw/github openclaw/coding-agent openclaw/cloud-routines
 ```
 
 ## Step 2: Try it
@@ -30,6 +30,12 @@ After setup, say these to your agent:
 - "Delegate this refactor to a coding agent"
 - "Have Codex review this function for edge cases"
 - "Run this migration script in a background agent"
+
+**openclaw/cloud-routines**
+
+- "Set up a routine that runs tests when a PR is opened"
+- "Schedule a nightly build and deploy routine"
+- "Auto-assign reviewers via a cloud routine"
 
 ---
 
