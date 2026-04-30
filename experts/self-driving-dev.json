@@ -1,0 +1,85 @@
+{
+  "slug": "self-driving-dev",
+  "name": {
+    "en": "Self-Driving Dev",
+    "zh": "自动驾驶开发者"
+  },
+  "division": "Engineering",
+  "description": {
+    "en": "parallel worktrees, multi-IDE agents, and cloud/local hybrid workflows",
+    "zh": "并行 worktree、多 IDE Agent、云端/本地混合工作流"
+  },
+  "goal": {
+    "en": "Run multiple agents in parallel across IDEs",
+    "zh": "跨 IDE 并行驱动多个 Agent"
+  },
+  "outcome": {
+    "en": "Run parallel git worktrees with Cursor SDK, Windsurf+Devin, and Claude Code simultaneously — local agents for fast iteration, cloud agents for long-running tasks, adaptive model routing for optimal results per task type.",
+    "zh": "同时用 Cursor SDK、Windsurf+Devin 和 Claude Code 运行并行 git worktree——本地 Agent 做快速迭代，云端 Agent 跑长时任务，自适应模型路由为每类任务选择最优模型。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/cursor-sdk",
+      "reason": {
+        "en": "Orchestrate multi-IDE agent workflows with Cursor SDK, Windsurf+Devin, worktree parallelism, and adaptive model routing.",
+        "zh": "用 Cursor SDK、Windsurf+Devin、worktree 并行和自适应模型路由编排多 IDE Agent 工作流。"
+      },
+      "order": 1,
+      "examples": {
+        "en": [
+          "Set up parallel worktrees for frontend, backend, and tests",
+          "Configure Windsurf Devin for cloud-based debugging",
+          "Route code review tasks to the strongest model"
+        ],
+        "zh": [
+          "为前端、后端和测试设置并行 worktree",
+          "配置 Windsurf Devin 做云端调试",
+          "把代码审查任务路由到最强模型"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/github",
+      "reason": {
+        "en": "Manage PRs, CI, and issues from any agent — keep your repo in sync across parallel workstreams.",
+        "zh": "从任意 Agent 管理 PR、CI 和 Issue——让仓库在并行工作流中保持同步。"
+      },
+      "order": 2,
+      "examples": {
+        "en": [
+          "Check CI status across all my worktrees",
+          "Create a PR from the frontend worktree",
+          "Review PRs while the backend agent is still running"
+        ],
+        "zh": [
+          "检查所有 worktree 的 CI 状态",
+          "从前端 worktree 创建 PR",
+          "在后端 Agent 仍在运行时审查 PR"
+        ]
+      }
+    },
+    {
+      "slug": "openclaw/coding-agent",
+      "reason": {
+        "en": "Delegate to Claude Code or Codex when you need deep coding — the self-driving dev delegates everything except architecture decisions.",
+        "zh": "需要深度编码时委托给 Claude Code 或 Codex——自动驾驶开发者只做架构决策，其余全委托。"
+      },
+      "order": 3,
+      "examples": {
+        "en": [
+          "Delegate the API migration to a background coding agent",
+          "Have Codex write tests for all three worktrees",
+          "Run this refactor in a parallel Claude Code session"
+        ],
+        "zh": [
+          "把 API 迁移委托给后台 coding agent",
+          "让 Codex 为三个 worktree 写测试",
+          "在并行 Claude Code 会话中运行这个重构"
+        ]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/cursor-sdk openclaw/github openclaw/coding-agent",
+  "curator": "clawhub",
+  "created": "2026-04-30"
+}
