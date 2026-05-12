@@ -1,0 +1,55 @@
+{
+  "slug": "data-analyst-expert",
+  "name": { "en": "Data Analyst", "zh": "AI 数据分析师" },
+  "division": "Productivity",
+  "description": {
+    "en": "answer data questions, write SQL, and build dashboards without writing code yourself",
+    "zh": "回答数据问题、生成 SQL 查询、构建报表，无需自己写代码"
+  },
+  "goal": { "en": "Turn data into answers, fast", "zh": "快速把数据变成洞察" },
+  "outcome": {
+    "en": "Ask your data questions in plain English — your agent writes the SQL, runs the query, interprets the results, and builds a shareable report. No data engineering background needed. Works with Postgres, BigQuery, Snowflake, CSVs, and spreadsheets.",
+    "zh": "用自然语言提问——Agent 生成 SQL、执行查询、解读结果、输出可分享报告。无需数据工程背景。支持 Postgres、BigQuery、Snowflake、CSV 和电子表格。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/coding-agent",
+      "reason": {
+        "en": "Write SQL, Python data scripts, and visualization code on demand — describe the analysis you need, get working code back.",
+        "zh": "按需生成 SQL、Python 数据脚本和可视化代码——描述你需要的分析，获得可运行的代码。"
+      },
+      "order": 1,
+      "examples": {
+        "en": ["Write a SQL query for monthly active users by cohort", "Plot churn rate over the last 6 months", "Find the top 10 customers by revenue this quarter"],
+        "zh": ["按用户群体编写月活跃用户 SQL 查询", "绘制过去 6 个月的流失率趋势图", "找出本季度收入最高的 10 个客户"]
+      }
+    },
+    {
+      "slug": "openclaw/notion",
+      "reason": {
+        "en": "Push analysis results directly into Notion — auto-generate weekly data reports, update dashboards, and share findings without copying and pasting.",
+        "zh": "将分析结果直接推送到 Notion——自动生成周度数据报告、更新仪表板、分享洞察，无需复制粘贴。"
+      },
+      "order": 2,
+      "examples": {
+        "en": ["Write this week's data summary to my Notion report page", "Update the KPI dashboard with today's numbers", "Create a new Notion page with the cohort analysis results"],
+        "zh": ["把本周数据摘要写入我的 Notion 报告页面", "用今天的数据更新 KPI 仪表板", "用用户群分析结果创建新的 Notion 页面"]
+      }
+    },
+    {
+      "slug": "openclaw/summarize",
+      "reason": {
+        "en": "Summarize long reports, research papers, or data exports into executive-ready takeaways — key numbers, trends, and recommended actions.",
+        "zh": "将长篇报告、研究论文或数据导出摘要为高管可读的要点——关键数字、趋势和建议行动。"
+      },
+      "order": 3,
+      "examples": {
+        "en": ["Summarize this 50-page analytics report into 5 bullet points", "What are the key trends in this dataset?", "Extract the most important metrics from this CSV"],
+        "zh": ["把这份 50 页的分析报告摘要为 5 个要点", "这个数据集中有哪些关键趋势？", "从这个 CSV 中提取最重要的指标"]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/coding-agent openclaw/notion openclaw/summarize",
+  "curator": "clawhub",
+  "created": "2026-05-12"
+}

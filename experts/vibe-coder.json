@@ -1,0 +1,55 @@
+{
+  "slug": "vibe-coder",
+  "name": { "en": "Vibe Coder", "zh": "Vibe 编程助理" },
+  "division": "Engineering",
+  "description": {
+    "en": "ship full apps by describing what you want — no CS degree required",
+    "zh": "用自然语言描述需求，直接交付完整 app，无需计算机背景"
+  },
+  "goal": { "en": "Ship apps by describing them", "zh": "用描述代替编程，直接交付 app" },
+  "outcome": {
+    "en": "Turn product ideas into working apps without a CS degree. Describe what you want in plain language — your agent scaffolds the project, writes the code, wires up APIs, and iterates on your feedback. Vibe coding at its best: you stay in the creative loop, the agent handles the implementation.",
+    "zh": "无需计算机背景，把产品想法变成可用的 app。用自然语言描述需求——你的 Agent 搭建项目结构、编写代码、接入 API，并根据你的反馈迭代。Vibe 编程的核心：你负责创意和方向，Agent 负责实现。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "openclaw/coding-agent",
+      "reason": {
+        "en": "Your coding co-pilot — scaffold projects, write features, run tests, and fix bugs on command. You describe the outcome; the agent writes the code.",
+        "zh": "你的编程副驾——搭建项目、编写功能、运行测试、修复 bug，全部按需执行。你描述目标，Agent 写代码。"
+      },
+      "order": 1,
+      "examples": {
+        "en": ["Build a landing page for my SaaS idea", "Add user authentication to this app", "Fix the bug where the form doesn't submit"],
+        "zh": ["为我的 SaaS 想法构建一个落地页", "给这个 app 加上用户认证", "修复表单提交失败的 bug"]
+      }
+    },
+    {
+      "slug": "openclaw/cursor-sdk",
+      "reason": {
+        "en": "Supercharge Cursor with agent-native workflows — multi-file edits, context-aware refactors, and tab completions that understand your whole codebase.",
+        "zh": "用 Agent 原生工作流强化 Cursor——多文件编辑、上下文感知重构，以及理解整个代码库的智能补全。"
+      },
+      "order": 2,
+      "examples": {
+        "en": ["Refactor this component across all my files", "Generate a full CRUD API from this schema", "Explain what this codebase does and where to start"],
+        "zh": ["重构这个组件并更新所有相关文件", "根据这个 schema 生成完整的 CRUD API", "解释这个代码库的功能和入手位置"]
+      }
+    },
+    {
+      "slug": "anthropics/claude-api",
+      "reason": {
+        "en": "When your app needs AI inside — add Claude-powered features like summarization, Q&A, or generation without becoming an ML engineer.",
+        "zh": "当你的 app 需要内置 AI——添加 Claude 驱动的功能，如摘要、问答或生成，无需成为 ML 工程师。"
+      },
+      "order": 3,
+      "examples": {
+        "en": ["Add an AI chat feature to my app", "Summarize user submissions automatically", "Generate personalized content for each user"],
+        "zh": ["给我的 app 添加 AI 对话功能", "自动摘要用户提交内容", "为每个用户生成个性化内容"]
+      }
+    }
+  ],
+  "installAll": "clawhub install openclaw/coding-agent openclaw/cursor-sdk anthropics/claude-api",
+  "curator": "clawhub",
+  "created": "2026-05-12"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "voice-expert",
+  "name": { "en": "Voice Agent Builder", "zh": "语音 Agent 开发者" },
+  "division": "Engineering",
+  "description": {
+    "en": "build voice-first AI apps with Realtime API, ElevenLabs, and speech-to-text pipelines",
+    "zh": "用 Realtime API、ElevenLabs 和语音转文字流水线构建语音优先的 AI 应用"
+  },
+  "goal": { "en": "Build voice AI apps end to end", "zh": "端到端构建语音 AI 应用" },
+  "outcome": {
+    "en": "Go from zero to a production voice AI app: wire up speech-to-text, route through Claude for reasoning, and synthesize responses with natural-sounding voice output. Build phone agents, voice assistants, real-time translators, and accessibility tools — all without a PhD in audio engineering.",
+    "zh": "从零到生产级语音 AI 应用：接入语音转文字、通过 Claude 进行推理、用自然语音合成响应。构建电话 Agent、语音助手、实时翻译和无障碍工具——无需音频工程背景。"
+  },
+  "skillsWithReason": [
+    {
+      "slug": "anthropics/claude-api",
+      "reason": {
+        "en": "The reasoning brain of your voice app — process transcribed speech, maintain conversation context, decide when to speak vs. wait, and generate natural responses.",
+        "zh": "语音应用的推理大脑——处理转录语音、维护对话上下文、决定何时响应、生成自然回复。"
+      },
+      "order": 1,
+      "examples": {
+        "en": ["Build a voice assistant that books calendar events", "Create a phone agent that answers customer questions", "Add voice input/output to my existing Claude app"],
+        "zh": ["构建一个可以预订日历事件的语音助手", "创建一个回答客户问题的电话 Agent", "为我现有的 Claude 应用添加语音输入/输出"]
+      }
+    },
+    {
+      "slug": "openclaw/coding-agent",
+      "reason": {
+        "en": "Scaffold the voice pipeline — WebSocket handlers for streaming audio, VAD (voice activity detection), chunked transcription, and TTS integration.",
+        "zh": "搭建语音流水线——用于流式音频的 WebSocket 处理器、VAD（语音活动检测）、分块转录和 TTS 集成。"
+      },
+      "order": 2,
+      "examples": {
+        "en": ["Build a WebSocket server for real-time audio streaming", "Add voice activity detection to my app", "Integrate ElevenLabs TTS into my voice pipeline"],
+        "zh": ["构建用于实时音频流的 WebSocket 服务器", "给我的应用添加语音活动检测", "将 ElevenLabs TTS 集成到我的语音流水线"]
+      }
+    },
+    {
+      "slug": "anthropics/mcp-builder",
+      "reason": {
+        "en": "Expose voice capabilities as MCP tools — let any agent trigger TTS, transcription, or phone calls via a standardized interface.",
+        "zh": "将语音能力暴露为 MCP 工具——让任何 Agent 通过标准接口触发 TTS、转录或电话呼叫。"
+      },
+      "order": 3,
+      "examples": {
+        "en": ["Build an MCP tool that triggers a phone call", "Expose my TTS endpoint as an MCP tool for other agents", "Create a transcription MCP server for my audio files"],
+        "zh": ["构建一个触发电话呼叫的 MCP 工具", "将我的 TTS 端点作为 MCP 工具暴露给其他 Agent", "为我的音频文件创建转录 MCP Server"]
+      }
+    }
+  ],
+  "installAll": "clawhub install anthropics/claude-api openclaw/coding-agent anthropics/mcp-builder",
+  "curator": "clawhub",
+  "created": "2026-05-12"
+}
